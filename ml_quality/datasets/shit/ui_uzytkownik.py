@@ -1,0 +1,115 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'uzytkownik.ui'
+#
+# Created: Fri Jan 11 20:52:26 2013
+#      by: PyQt4 UI code generator 4.9.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt4 import QtCore, QtGui
+
+try:
+    _fromUtf8 = QtCore.QString.fromUtf8
+except AttributeError:
+    _fromUtf8 = lambda s: s
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName(_fromUtf8("MainWindow"))
+        MainWindow.resize(800, 600)
+        self.centralwidget = QtGui.QWidget(MainWindow)
+        self.centralwidget.setObjectName(_fromUtf8("centralwidget"))
+        self.gridLayout = QtGui.QGridLayout(self.centralwidget)
+        self.gridLayout.setObjectName(_fromUtf8("gridLayout"))
+        self.katalogi = QtGui.QTableView(self.centralwidget)
+        self.katalogi.setObjectName(_fromUtf8("katalogi"))
+        self.gridLayout.addWidget(self.katalogi, 0, 0, 1, 1)
+        self.serwery = QtGui.QTableView(self.centralwidget)
+        self.serwery.setEditTriggers(QtGui.QAbstractItemView.NoEditTriggers)
+        self.serwery.setSelectionMode(QtGui.QAbstractItemView.SingleSelection)
+        self.serwery.setSelectionBehavior(QtGui.QAbstractItemView.SelectRows)
+        self.serwery.setObjectName(_fromUtf8("serwery"))
+        self.gridLayout.addWidget(self.serwery, 0, 1, 1, 1)
+        self.groupBox = QtGui.QGroupBox(self.centralwidget)
+        self.groupBox.setFlat(False)
+        self.groupBox.setObjectName(_fromUtf8("groupBox"))
+        self.formLayout_2 = QtGui.QFormLayout(self.groupBox)
+        self.formLayout_2.setObjectName(_fromUtf8("formLayout_2"))
+        self.wybierz_katalog = QtGui.QPushButton(self.groupBox)
+        self.wybierz_katalog.setObjectName(_fromUtf8("wybierz_katalog"))
+        self.formLayout_2.setWidget(1, QtGui.QFormLayout.FieldRole, self.wybierz_katalog)
+        self.serwer = QtGui.QLabel(self.groupBox)
+        self.serwer.setObjectName(_fromUtf8("serwer"))
+        self.formLayout_2.setWidget(2, QtGui.QFormLayout.LabelRole, self.serwer)
+        self.dodaj_katalog = QtGui.QPushButton(self.groupBox)
+        self.dodaj_katalog.setObjectName(_fromUtf8("dodaj_katalog"))
+        self.formLayout_2.setWidget(4, QtGui.QFormLayout.FieldRole, self.dodaj_katalog)
+        self.nazwa_katalogu = QtGui.QLineEdit(self.groupBox)
+        self.nazwa_katalogu.setObjectName(_fromUtf8("nazwa_katalogu"))
+        self.formLayout_2.setWidget(1, QtGui.QFormLayout.LabelRole, self.nazwa_katalogu)
+        self.id_serwera = QtGui.QComboBox(self.groupBox)
+        self.id_serwera.setObjectName(_fromUtf8("id_serwera"))
+        self.formLayout_2.setWidget(2, QtGui.QFormLayout.FieldRole, self.id_serwera)
+        self.gridLayout.addWidget(self.groupBox, 2, 0, 1, 1)
+        self.groupBox_2 = QtGui.QGroupBox(self.centralwidget)
+        self.groupBox_2.setObjectName(_fromUtf8("groupBox_2"))
+        self.formLayout = QtGui.QFormLayout(self.groupBox_2)
+        self.formLayout.setObjectName(_fromUtf8("formLayout"))
+        self.label = QtGui.QLabel(self.groupBox_2)
+        self.label.setObjectName(_fromUtf8("label"))
+        self.formLayout.setWidget(0, QtGui.QFormLayout.LabelRole, self.label)
+        self.nazwa_serwera = QtGui.QLineEdit(self.groupBox_2)
+        self.nazwa_serwera.setObjectName(_fromUtf8("nazwa_serwera"))
+        self.formLayout.setWidget(0, QtGui.QFormLayout.FieldRole, self.nazwa_serwera)
+        self.label_2 = QtGui.QLabel(self.groupBox_2)
+        self.label_2.setObjectName(_fromUtf8("label_2"))
+        self.formLayout.setWidget(1, QtGui.QFormLayout.LabelRole, self.label_2)
+        self.katalog_docelowy = QtGui.QLineEdit(self.groupBox_2)
+        self.katalog_docelowy.setObjectName(_fromUtf8("katalog_docelowy"))
+        self.formLayout.setWidget(1, QtGui.QFormLayout.FieldRole, self.katalog_docelowy)
+        self.label_3 = QtGui.QLabel(self.groupBox_2)
+        self.label_3.setObjectName(_fromUtf8("label_3"))
+        self.formLayout.setWidget(2, QtGui.QFormLayout.LabelRole, self.label_3)
+        self.horizontalLayout_2 = QtGui.QHBoxLayout()
+        self.horizontalLayout_2.setObjectName(_fromUtf8("horizontalLayout_2"))
+        self.sciezka_klucza = QtGui.QLineEdit(self.groupBox_2)
+        self.sciezka_klucza.setObjectName(_fromUtf8("sciezka_klucza"))
+        self.horizontalLayout_2.addWidget(self.sciezka_klucza)
+        self.wybierz_klucz = QtGui.QPushButton(self.groupBox_2)
+        self.wybierz_klucz.setObjectName(_fromUtf8("wybierz_klucz"))
+        self.horizontalLayout_2.addWidget(self.wybierz_klucz)
+        self.formLayout.setLayout(2, QtGui.QFormLayout.FieldRole, self.horizontalLayout_2)
+        self.dodaj_serwer = QtGui.QPushButton(self.groupBox_2)
+        self.dodaj_serwer.setObjectName(_fromUtf8("dodaj_serwer"))
+        self.formLayout.setWidget(3, QtGui.QFormLayout.FieldRole, self.dodaj_serwer)
+        self.gridLayout.addWidget(self.groupBox_2, 2, 1, 1, 1)
+        self.usun_katalog = QtGui.QPushButton(self.centralwidget)
+        self.usun_katalog.setObjectName(_fromUtf8("usun_katalog"))
+        self.gridLayout.addWidget(self.usun_katalog, 1, 0, 1, 1)
+        self.usun_serwer = QtGui.QPushButton(self.centralwidget)
+        self.usun_serwer.setObjectName(_fromUtf8("usun_serwer"))
+        self.gridLayout.addWidget(self.usun_serwer, 1, 1, 1, 1)
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.statusbar = QtGui.QStatusBar(MainWindow)
+        self.statusbar.setObjectName(_fromUtf8("statusbar"))
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(QtGui.QApplication.translate("MainWindow", "MainWindow", None, QtGui.QApplication.UnicodeUTF8))
+        self.groupBox.setTitle(QtGui.QApplication.translate("MainWindow", "Dodaj nowy katalog", None, QtGui.QApplication.UnicodeUTF8))
+        self.wybierz_katalog.setText(QtGui.QApplication.translate("MainWindow", "wybierz katalog", None, QtGui.QApplication.UnicodeUTF8))
+        self.serwer.setText(QtGui.QApplication.translate("MainWindow", "Serwer:", None, QtGui.QApplication.UnicodeUTF8))
+        self.dodaj_katalog.setText(QtGui.QApplication.translate("MainWindow", "dodaj", None, QtGui.QApplication.UnicodeUTF8))
+        self.groupBox_2.setTitle(QtGui.QApplication.translate("MainWindow", "Dodaj nowy serwer", None, QtGui.QApplication.UnicodeUTF8))
+        self.label.setText(QtGui.QApplication.translate("MainWindow", "Adres serwera:", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_2.setText(QtGui.QApplication.translate("MainWindow", "Katalog docelowy:", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_3.setText(QtGui.QApplication.translate("MainWindow", "Ścieżka do klucza:", None, QtGui.QApplication.UnicodeUTF8))
+        self.wybierz_klucz.setText(QtGui.QApplication.translate("MainWindow", "wybierz klucz", None, QtGui.QApplication.UnicodeUTF8))
+        self.dodaj_serwer.setText(QtGui.QApplication.translate("MainWindow", "Dodaj", None, QtGui.QApplication.UnicodeUTF8))
+        self.usun_katalog.setText(QtGui.QApplication.translate("MainWindow", "Usuń katalog", None, QtGui.QApplication.UnicodeUTF8))
+        self.usun_serwer.setText(QtGui.QApplication.translate("MainWindow", "Usuń serwer", None, QtGui.QApplication.UnicodeUTF8))
+

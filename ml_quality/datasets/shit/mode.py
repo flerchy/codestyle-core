@@ -1,0 +1,6 @@
+class Mode(object):
+	"""Saves Game Mode as Integers."""
+	SINGLEPLAYER = 0
+	SINGLEPLAYERWITHCOMP = 1
+	MULTIPLAYER_SERVER = 2
+	MULTIPLAYER_CLIENT = 3
