@@ -1,3 +1,4 @@
+import argparse
 import numpy as np
 from sklearn.externals import joblib
 
@@ -5,8 +6,16 @@ bad_array = np.load('../train/bad.all.npy')
 good_array = np.load('../train/good.all.npy')
 
 clf = joblib.load('../model.pkl') 
-#todo: поправить, чтобы файл можно было выбрать из командной строки
-file = open("../../scripts/pythonparse/ours.out")
+
+
+parser = argparse.ArgumentParser(description="Test file on this path")
+parser.add_argument('filename', metavar='f', help="Path to file")
+
+args = parser.parse_args()
+
+print(args)
+
+file = open(args.filename)
 X_test = []
 i = 0
 j = 0
@@ -28,9 +37,9 @@ for line in file:
         X_test.append([])
     j += 1
 X_test.pop()
-print X_test
-
-if (clf.predict(X_test)[0]):
-    print "{\"answer\": \"fine code\"}"  
+print(X_test)
+X_t = np.asarray(X_test)
+if (clf.predict(X_t.reshape(1, -1))):
+    print("{\"answer\": \"fine code\"}")
 else:
-    print "{\"answer\": \"shitcode\"}"  
+    print("{\"answer\": \"shitcode\"}")
