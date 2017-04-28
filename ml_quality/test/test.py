@@ -1,6 +1,8 @@
 import argparse
+import subprocess
 import numpy as np
 from sklearn.externals import joblib
+from pythonparse import run
 
 bad_array = np.load('../train/bad.all.npy')
 good_array = np.load('../train/good.all.npy')
@@ -15,7 +17,11 @@ args = parser.parse_args()
 
 print(args)
 
-file = open(args.filename)
+subprocess.check_call(['pylint ' + str(args.filename) + ' | wc -l > lint.out'])
+
+pythonparse.run(args.filename)
+file = open("res.out")
+
 X_test = []
 i = 0
 j = 0
