@@ -2,8 +2,7 @@ import argparse
 import subprocess
 import numpy as np
 from sklearn.externals import joblib
-from pythonparse import run
-
+import pythonparse 
 bad_array = np.load('../train/bad.all.npy')
 good_array = np.load('../train/good.all.npy')
 
@@ -15,11 +14,12 @@ parser.add_argument('filename', metavar='f', help="Path to file")
 
 args = parser.parse_args()
 
-print(args)
-
-subprocess.check_call(['pylint ' + str(args.filename) + ' | wc -l > lint.out'])
+print args
 
 pythonparse.run(args.filename)
+
+
+subprocess.check_call('pylint ' + str(args.filename) + ' | wc -l > lint.out', shell=True)
 file = open("res.out")
 
 X_test = []
@@ -43,9 +43,9 @@ for line in file:
         X_test.append([])
     j += 1
 X_test.pop()
-print(X_test)
+#print X_test
 X_t = np.asarray(X_test)
 if (clf.predict(X_t.reshape(1, -1))):
-    print("{\"answer\": \"fine code\"}")
+    print "{\"answer\": \"fine code\"}"
 else:
-    print("{\"answer\": \"shitcode\"}")
+    print "{\"answer\": \"shitcode\"}"

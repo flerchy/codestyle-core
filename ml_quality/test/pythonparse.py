@@ -156,8 +156,9 @@ def count_loop_nesting(file):
 
 
 def run(file_name):
-    res = open("res.out", 'a+')
+    res = open("res.out", 'w')
     #print "Counting lines..."
+    ofile = fopen(file_name)
     strings_amount = count_strings(ofile)
     if (strings_amount != 0):
         print strings_amount
@@ -206,5 +207,3 @@ def run(file_name):
     res.close()
     #print fstring
     print "OK\n"
-
-main()
