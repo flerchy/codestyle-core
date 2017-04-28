@@ -19,6 +19,7 @@ print args
 pythonparse.run(args.filename)
 
 
+subprocess.check_call('touch lint.out', shell=True)
 subprocess.check_call('pylint ' + str(args.filename) + ' | wc -l > lint.out', shell=True)
 file = open("res.out")
 
