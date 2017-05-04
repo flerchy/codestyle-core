@@ -1,3 +1,0 @@
-[submodule "scripts/pythonparse"]
-	path = scripts/pythonparse
-	url = https://github.com/flerchy/pythonparse
