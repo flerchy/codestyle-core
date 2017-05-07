@@ -1,0 +1,4472 @@
+filename: temp.py
+1       E225 missing whitespace around operator
+2       E251 unexpected spaces around keyword / parameter equals
+
+filename: upload_pictures.py
+3       E225 missing whitespace around operator
+4       E251 unexpected spaces around keyword / parameter equals
+1       E265 block comment should start with '# '
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E401 multiple imports on one line
+1       E501 line too long (85 > 81 characters)
+2       W291 trailing whitespace
+1       W292 no newline at end of file
+5       W293 blank line contains whitespace
+
+filename: insertion_sort.py
+1       E101 indentation contains mixed spaces and tabs
+5       E231 missing whitespace after ','
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E741 ambiguous variable name 'l'
+1       W191 indentation contains tabs
+
+filename: imagetest.py
+1       W292 no newline at end of file
+
+filename: state.py
+1       E302 expected 2 blank lines, found 1
+
+filename: ptvs_virtualenv_proxy.py
+13      E114 indentation is not a multiple of four (comment)
+13      E116 unexpected indentation (comment)
+4       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+3       E501 line too long (92 > 81 characters)
+1       E703 statement ends with a semicolon
+1       E722 do not use bare except'
+6       W291 trailing whitespace
+3       W293 blank line contains whitespace
+
+filename: test_questions.py
+1       E201 whitespace after '{'
+1       E202 whitespace before '}'
+18      E711 comparison to None should be 'if cond is None:'
+3       E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+
+filename: methodtest.py
+3       E225 missing whitespace around operator
+2       E302 expected 2 blank lines, found 1
+8       W191 indentation contains tabs
+
+filename: 0004_auto_20150716_2038.py
+
+filename: Conditional Prob.py
+3       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: 6.py
+2       E101 indentation contains mixed spaces and tabs
+2       E265 block comment should start with '# '
+1       W191 indentation contains tabs
+
+filename: bricklet_dual_relay.py
+1       E302 expected 2 blank lines, found 1
+10      E501 line too long (82 > 81 characters)
+7       W291 trailing whitespace
+8       W293 blank line contains whitespace
+
+filename: server.py
+1       E302 expected 2 blank lines, found 0
+42      W191 indentation contains tabs
+1       W292 no newline at end of file
+
+filename: optimum policy.py
+3       E201 whitespace after '['
+3       E202 whitespace before ']'
+6       E261 at least two spaces before inline comment
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (110 > 81 characters)
+
+filename: double pig game 2.py
+1       E127 continuation line over-indented for visual indent
+3       E221 multiple spaces before operator
+1       E225 missing whitespace around operator
+11      E231 missing whitespace after ','
+2       E251 unexpected spaces around keyword / parameter equals
+2       E261 at least two spaces before inline comment
+2       E265 block comment should start with '# '
+2       E266 too many leading '#' for block comment
+14      E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       E306 expected 1 blank line before a nested definition, found 0
+8       E501 line too long (85 > 81 characters)
+1       E701 multiple statements on one line (colon)
+6       W291 trailing whitespace
+3       W293 blank line contains whitespace
+
+filename: Word Games with Blank.py
+1       E221 multiple spaces before operator
+1       E225 missing whitespace around operator
+4       E231 missing whitespace after ','
+7       E261 at least two spaces before inline comment
+3       E262 inline comment should start with '# '
+2       E266 too many leading '#' for block comment
+23      E302 expected 2 blank lines, found 1
+7       E305 expected 2 blank lines after class or function definition, found 1
+6       E501 line too long (150 > 81 characters)
+10      E701 multiple statements on one line (colon)
+2       E741 ambiguous variable name 'I'
+8       W291 trailing whitespace
+6       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: combine_image.py
+3       E231 missing whitespace after ','
+
+filename: gettet.py
+1       W291 trailing whitespace
+1       W292 no newline at end of file
+
+filename: rpc_client.py
+4       E251 unexpected spaces around keyword / parameter equals
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       W292 no newline at end of file
+
+filename: pig games.py
+3       E111 indentation is not a multiple of four
+4       E128 continuation line under-indented for visual indent
+25      E221 multiple spaces before operator
+11      E231 missing whitespace after ':'
+4       E251 unexpected spaces around keyword / parameter equals
+2       E261 at least two spaces before inline comment
+9       E265 block comment should start with '# '
+5       E266 too many leading '#' for block comment
+27      E302 expected 2 blank lines, found 1
+6       E305 expected 2 blank lines after class or function definition, found 1
+1       E306 expected 1 blank line before a nested definition, found 0
+7       E501 line too long (82 > 81 characters)
+1       E701 multiple statements on one line (colon)
+3       W291 trailing whitespace
+2       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: online SLAM.py
+2       E115 expected an indented block (comment)
+1       E127 continuation line over-indented for visual indent
+6       E202 whitespace before ']'
+30      E221 multiple spaces before operator
+10      E222 multiple spaces after operator
+8       E225 missing whitespace around operator
+5       E228 missing whitespace around modulo operator
+20      E231 missing whitespace after ','
+17      E251 unexpected spaces around keyword / parameter equals
+1       E261 at least two spaces before inline comment
+6       E265 block comment should start with '# '
+4       E302 expected 2 blank lines, found 1
+2       E303 too many blank lines (2)
+2       E305 expected 2 blank lines after class or function definition, found 1
+42      E501 line too long (83 > 81 characters)
+1       E502 the backslash is redundant between brackets
+30      W291 trailing whitespace
+33      W293 blank line contains whitespace
+8       W602 deprecated form of raising exception
+
+filename: 0007_auto__add_field_location_view_count.py
+2       E303 too many blank lines (2)
+70      E501 line too long (85 > 81 characters)
+1       W292 no newline at end of file
+
+filename: element.py
+10      E225 missing whitespace around operator
+1       E228 missing whitespace around modulo operator
+1       E231 missing whitespace after ':'
+16      E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+3       E501 line too long (99 > 81 characters)
+3       E711 comparison to None should be 'if cond is not None:'
+1       E712 comparison to True should be 'if cond is True:' or 'if cond:'
+
+filename: bricklet_voltage_current.py
+1       E302 expected 2 blank lines, found 1
+42      E501 line too long (115 > 81 characters)
+8       W291 trailing whitespace
+34      W293 blank line contains whitespace
+
+filename: pymonitor.py
+1       E225 missing whitespace around operator
+6       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       E401 multiple imports on one line
+2       E501 line too long (94 > 81 characters)
+
+filename: async_postgres.py
+1       W292 no newline at end of file
+
+filename: perlin_noise.py
+5       E203 whitespace before ':'
+1       E222 multiple spaces after operator
+1       E225 missing whitespace around operator
+3       E231 missing whitespace after ','
+1       E265 block comment should start with '# '
+1       E302 expected 2 blank lines, found 0
+6       E303 too many blank lines (4)
+7       E501 line too long (116 > 81 characters)
+1       W391 blank line at end of file
+
+filename: sudoku.py
+2       E116 unexpected indentation (comment)
+1       E225 missing whitespace around operator
+6       E228 missing whitespace around modulo operator
+365     E231 missing whitespace after ','
+1       E261 at least two spaces before inline comment
+7       E265 block comment should start with '# '
+12      E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (3)
+1       E402 module level import not at top of file
+1       E501 line too long (91 > 81 characters)
+3       E741 ambiguous variable name 'l'
+1       W291 trailing whitespace
+4       W293 blank line contains whitespace
+
+filename: test.py
+1       E501 line too long (655 > 81 characters)
+
+filename: dev.py
+
+filename: 0004_auto.py
+2       E303 too many blank lines (2)
+70      E501 line too long (93 > 81 characters)
+1       W292 no newline at end of file
+
+filename: mdetect.py
+2       E125 continuation line with same indent as next logical line
+3       E127 continuation line over-indented for visual indent
+3       E128 continuation line under-indented for visual indent
+25      E261 at least two spaces before inline comment
+36      E262 inline comment should start with '# '
+42      E265 block comment should start with '# '
+2       E271 multiple spaces after keyword
+13      E303 too many blank lines (2)
+17      E501 line too long (84 > 81 characters)
+2       E502 the backslash is redundant between brackets
+9       W291 trailing whitespace
+22      W293 blank line contains whitespace
+
+filename: knapsack.py
+
+filename: search engine.py
+1       E222 multiple spaces after operator
+2       E225 missing whitespace around operator
+10      E231 missing whitespace after ','
+20      E251 unexpected spaces around keyword / parameter equals
+8       E265 block comment should start with '# '
+17      E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (3)
+2       E305 expected 2 blank lines after class or function definition, found 1
+6       E501 line too long (834 > 81 characters)
+1       E722 do not use bare except'
+6       W291 trailing whitespace
+2       W293 blank line contains whitespace
+
+filename: Symplectic Euler.py
+22      E251 unexpected spaces around keyword / parameter equals
+5       E261 at least two spaces before inline comment
+2       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (2)
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (93 > 81 characters)
+4       W291 trailing whitespace
+3       W293 blank line contains whitespace
+
+filename: Food Chain.py
+2       E124 closing bracket does not match visual indentation
+4       E251 unexpected spaces around keyword / parameter equals
+9       E261 at least two spaces before inline comment
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+3       E501 line too long (108 > 81 characters)
+14      W291 trailing whitespace
+3       W293 blank line contains whitespace
+
+filename: Boggle Games.py
+1       E231 missing whitespace after ','
+1       E265 block comment should start with '# '
+11      E302 expected 2 blank lines, found 1
+3       E305 expected 2 blank lines after class or function definition, found 1
+14      E501 line too long (89 > 81 characters)
+2       E741 ambiguous variable name 'l'
+20      W291 trailing whitespace
+2       W293 blank line contains whitespace
+
+filename: HTML parser.py
+4       E111 indentation is not a multiple of four
+3       E201 whitespace after '{'
+1       E202 whitespace before '}'
+7       E231 missing whitespace after ','
+2       E265 block comment should start with '# '
+8       E266 too many leading '#' for block comment
+15      E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+4       E402 module level import not at top of file
+5       E501 line too long (156 > 81 characters)
+1       E701 multiple statements on one line (colon)
+15      W291 trailing whitespace
+
+filename: FixCellNakedN.py
+1       E115 expected an indented block (comment)
+5       E225 missing whitespace around operator
+1       E227 missing whitespace around bitwise or shift operator
+1       E228 missing whitespace around modulo operator
+2       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+1       E306 expected 1 blank line before a nested definition, found 0
+3       E501 line too long (82 > 81 characters)
+1       W292 no newline at end of file
+
+filename: Line Coverage.py
+3       E221 multiple spaces before operator
+2       E251 unexpected spaces around keyword / parameter equals
+1       E261 at least two spaces before inline comment
+3       E302 expected 2 blank lines, found 0
+1       E305 expected 2 blank lines after class or function definition, found 1
+3       W293 blank line contains whitespace
+2       W601 .has_key() is deprecated, use 'in'
+
+filename: studenttest.py
+2       E225 missing whitespace around operator
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       W191 indentation contains tabs
+1       W292 no newline at end of file
+
+filename: Search & Match Complier.py
+1       E227 missing whitespace around bitwise or shift operator
+3       E231 missing whitespace after ','
+7       E302 expected 2 blank lines, found 1
+3       E305 expected 2 blank lines after class or function definition, found 0
+1       E501 line too long (82 > 81 characters)
+2       E711 comparison to None should be 'if cond is None:'
+2       E731 do not assign a lambda expression, use a def
+1       W293 blank line contains whitespace
+
+filename: apps.py
+
+filename: Lorenz.py
+1       E231 missing whitespace after ','
+4       E265 block comment should start with '# '
+2       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (94 > 81 characters)
+3       W291 trailing whitespace
+2       W293 blank line contains whitespace
+
+filename: 0006_auto.py
+2       E303 too many blank lines (2)
+74      E501 line too long (93 > 81 characters)
+1       W292 no newline at end of file
+
+filename: app.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (86 > 81 characters)
+
+filename: main-Final1.py
+1       E203 whitespace before ':'
+1       E221 multiple spaces before operator
+3       E225 missing whitespace around operator
+3       E231 missing whitespace after ':'
+32      E251 unexpected spaces around keyword / parameter equals
+9       E301 expected 1 blank line, found 0
+33      E302 expected 2 blank lines, found 0
+5       E305 expected 2 blank lines after class or function definition, found 1
+9       E501 line too long (90 > 81 characters)
+
+filename: cryp-W2-final.py
+1       E111 indentation is not a multiple of four
+2       E201 whitespace after '['
+14      E225 missing whitespace around operator
+2       E228 missing whitespace around modulo operator
+31      E231 missing whitespace after ','
+14      E302 expected 2 blank lines, found 1
+5       E305 expected 2 blank lines after class or function definition, found 1
+6       E501 line too long (135 > 81 characters)
+4       W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: 2sat.py
+2       E225 missing whitespace around operator
+2       E231 missing whitespace after ','
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (117 > 81 characters)
+1       W293 blank line contains whitespace
+
+filename: URef.py
+4       E228 missing whitespace around modulo operator
+8       E231 missing whitespace after ':'
+3       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+1       W292 no newline at end of file
+
+filename: ormtest.py
+1       E125 continuation line with same indent as next logical line
+1       E127 continuation line over-indented for visual indent
+1       E128 continuation line under-indented for visual indent
+
+filename: stor.py
+1       E302 expected 2 blank lines, found 1
+2       W291 trailing whitespace
+1       W292 no newline at end of file
+
+filename: 7.py
+2       E128 continuation line under-indented for visual indent
+1       E305 expected 2 blank lines after class or function definition, found 0
+15      E501 line too long (102 > 81 characters)
+
+filename: manage.py
+
+filename: brick_dc.py
+32      E501 line too long (82 > 81 characters)
+22      W293 blank line contains whitespace
+
+filename: multi_player.py
+1       E231 missing whitespace after ','
+1       E302 expected 2 blank lines, found 1
+1       E401 multiple imports on one line
+1       E501 line too long (88 > 81 characters)
+42      W191 indentation contains tabs
+1       W292 no newline at end of file
+1       W293 blank line contains whitespace
+
+filename: cryp-W2.py
+1       E111 indentation is not a multiple of four
+2       E201 whitespace after '['
+7       E225 missing whitespace around operator
+2       E228 missing whitespace around modulo operator
+30      E231 missing whitespace after ','
+11      E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (3)
+3       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (135 > 81 characters)
+4       W291 trailing whitespace
+
+filename: config_override.py
+
+filename: transformations.py
+1       E231 missing whitespace after ','
+
+filename: bricklet_analog_out.py
+2       E303 too many blank lines (2)
+4       E501 line too long (90 > 81 characters)
+4       W293 blank line contains whitespace
+
+filename: path smoothing constrained.py
+1       E128 continuation line under-indented for visual indent
+2       E225 missing whitespace around operator
+6       E228 missing whitespace around modulo operator
+1       E231 missing whitespace after ','
+8       E251 unexpected spaces around keyword / parameter equals
+9       E261 at least two spaces before inline comment
+4       E262 inline comment should start with '# '
+2       E265 block comment should start with '# '
+3       E266 too many leading '#' for block comment
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+5       E501 line too long (83 > 81 characters)
+4       W291 trailing whitespace
+2       W293 blank line contains whitespace
+
+filename: distributions.py
+1       E128 continuation line under-indented for visual indent
+1       E302 expected 2 blank lines, found 1
+4       E501 line too long (91 > 81 characters)
+1       W293 blank line contains whitespace
+
+filename: module_main.py
+1       E231 missing whitespace after ','
+
+filename: Eulerian Free Fall.py
+8       E261 at least two spaces before inline comment
+3       E262 inline comment should start with '# '
+3       E265 block comment should start with '# '
+2       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       W291 trailing whitespace
+
+filename: 8.py
+1       E901 TokenError: EOF in multi-line statement
+
+filename: batch_rename.py
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: finding a favor.py
+3       E111 indentation is not a multiple of four
+3       E128 continuation line under-indented for visual indent
+1       E222 multiple spaces after operator
+4       E225 missing whitespace around operator
+18      E231 missing whitespace after ','
+2       E251 unexpected spaces around keyword / parameter equals
+4       E261 at least two spaces before inline comment
+9       E262 inline comment should start with '# '
+2       E265 block comment should start with '# '
+9       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (85 > 81 characters)
+3       E722 do not use bare except'
+1       W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: Search & Match.py
+12      E122 continuation line missing indentation or outdented
+4       E128 continuation line under-indented for visual indent
+10      E251 unexpected spaces around keyword / parameter equals
+1       E261 at least two spaces before inline comment
+1       E262 inline comment should start with '# '
+6       E272 multiple spaces before keyword
+2       E302 expected 2 blank lines, found 1
+1       E501 line too long (86 > 81 characters)
+1       E901 TokenError: EOF in multi-line statement
+3       W293 blank line contains whitespace
+2       W391 blank line at end of file
+
+filename: animal_reflect.py
+1       E101 indentation contains mixed spaces and tabs
+5       E225 missing whitespace around operator
+1       E271 multiple spaces after keyword
+1       E305 expected 2 blank lines after class or function definition, found 1
+4       E721 do not compare types, use 'isinstance()'
+1       W191 indentation contains tabs
+
+filename: views.py
+1       E302 expected 2 blank lines, found 1
+1       W292 no newline at end of file
+
+filename: utils.py
+1       E302 expected 2 blank lines, found 1
+
+filename: path smoothing cyclic.py
+1       E225 missing whitespace around operator
+2       E228 missing whitespace around modulo operator
+1       E231 missing whitespace after ','
+8       E251 unexpected spaces around keyword / parameter equals
+2       E261 at least two spaces before inline comment
+2       E265 block comment should start with '# '
+33      E266 too many leading '#' for block comment
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+3       E501 line too long (86 > 81 characters)
+5       W291 trailing whitespace
+2       W293 blank line contains whitespace
+
+filename: brick_stepper.py
+1       E302 expected 2 blank lines, found 1
+55      E501 line too long (155 > 81 characters)
+18      W291 trailing whitespace
+37      W293 blank line contains whitespace
+
+filename: context_processors.py
+1       E302 expected 2 blank lines, found 1
+1       W291 trailing whitespace
+1       W292 no newline at end of file
+
+filename: BEAST.py
+2       E201 whitespace after '['
+1       E225 missing whitespace around operator
+3       E231 missing whitespace after ','
+4       E251 unexpected spaces around keyword / parameter equals
+1       E265 block comment should start with '# '
+13      E302 expected 2 blank lines, found 1
+3       E305 expected 2 blank lines after class or function definition, found 1
+4       W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: 4.py
+1       E111 indentation is not a multiple of four
+1       E113 unexpected indentation
+2       E231 missing whitespace after ','
+1       E501 line too long (242 > 81 characters)
+1       W291 trailing whitespace
+
+filename: 5.py
+1       E124 closing bracket does not match visual indentation
+9       E501 line too long (85 > 81 characters)
+
+filename: removedead.py
+2       E201 whitespace after '['
+3       E202 whitespace before ')'
+1       E203 whitespace before ','
+3       E231 missing whitespace after ','
+11      W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: input.py
+2       E265 block comment should start with '# '
+
+filename: main-Unit6.py
+1       E203 whitespace before ':'
+1       E221 multiple spaces before operator
+3       E225 missing whitespace around operator
+3       E231 missing whitespace after ':'
+26      E251 unexpected spaces around keyword / parameter equals
+7       E301 expected 1 blank line, found 0
+24      E302 expected 2 blank lines, found 0
+5       E305 expected 2 blank lines after class or function definition, found 1
+6       E501 line too long (83 > 81 characters)
+
+filename: 2.py
+5       E113 unexpected indentation
+
+filename: cryp-W5.py
+1       E101 indentation contains mixed spaces and tabs
+10      E225 missing whitespace around operator
+2       E227 missing whitespace around bitwise or shift operator
+11      E231 missing whitespace after ','
+1       E251 unexpected spaces around keyword / parameter equals
+2       E265 block comment should start with '# '
+4       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+4       E501 line too long (88 > 81 characters)
+12      E702 multiple statements on one line (semicolon)
+1       E703 statement ends with a semicolon
+41      W191 indentation contains tabs
+2       W291 trailing whitespace
+3       W293 blank line contains whitespace
+
+filename: populate_rango.py
+1       E113 unexpected indentation
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E402 module level import not at top of file
+1       E501 line too long (85 > 81 characters)
+
+filename: brick_servo.py
+1       E302 expected 2 blank lines, found 1
+60      E501 line too long (83 > 81 characters)
+14      W291 trailing whitespace
+28      W293 blank line contains whitespace
+
+filename: my-spyder.py
+2       E221 multiple spaces before operator
+18      E265 block comment should start with '# '
+5       E302 expected 2 blank lines, found 1
+4       E305 expected 2 blank lines after class or function definition, found 1
+2       E711 comparison to None should be 'if cond is None:'
+3       E722 do not use bare except'
+4       W291 trailing whitespace
+4       W293 blank line contains whitespace
+4       W601 .has_key() is deprecated, use 'in'
+
+filename: gps.py
+2       E202 whitespace before ')'
+9       E261 at least two spaces before inline comment
+5       E265 block comment should start with '# '
+1       E302 expected 2 blank lines, found 1
+5       E303 too many blank lines (2)
+2       W291 trailing whitespace
+1       W292 no newline at end of file
+2       W293 blank line contains whitespace
+
+filename: models_test.py
+2       E501 line too long (100 > 81 characters)
+1       W292 no newline at end of file
+
+filename: bricklet_ambient_light.py
+1       E302 expected 2 blank lines, found 1
+31      E501 line too long (102 > 81 characters)
+5       W291 trailing whitespace
+21      W293 blank line contains whitespace
+
+filename: bricklet_piezo_buzzer.py
+3       E501 line too long (86 > 81 characters)
+1       W291 trailing whitespace
+2       W293 blank line contains whitespace
+
+filename: app2.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (94 > 81 characters)
+
+filename: serializers.py
+4       E501 line too long (83 > 81 characters)
+
+filename: tests.py
+
+filename: Introduce your web browser.py
+2       E231 missing whitespace after ','
+2       E261 at least two spaces before inline comment
+7       E402 module level import not at top of file
+5       E501 line too long (153 > 81 characters)
+7       W291 trailing whitespace
+
+filename: bridge edges.py
+1       E222 multiple spaces after operator
+8       E225 missing whitespace around operator
+35      E231 missing whitespace after ':'
+4       E251 unexpected spaces around keyword / parameter equals
+1       E265 block comment should start with '# '
+15      E302 expected 2 blank lines, found 1
+6       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (1467 > 81 characters)
+13      E741 ambiguous variable name 'l'
+56      W291 trailing whitespace
+
+filename: Schedule.py
+4       E251 unexpected spaces around keyword / parameter equals
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: dbtest3.py
+1       E101 indentation contains mixed spaces and tabs
+1       E303 too many blank lines (2)
+2       E501 line too long (103 > 81 characters)
+1       W191 indentation contains tabs
+2       W291 trailing whitespace
+
+filename: populate_rango2.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E402 module level import not at top of file
+1       E501 line too long (85 > 81 characters)
+
+filename: web.py
+19      E225 missing whitespace around operator
+38      E302 expected 2 blank lines, found 1
+6       E305 expected 2 blank lines after class or function definition, found 1
+1       E401 multiple imports on one line
+50      E501 line too long (107 > 81 characters)
+4       E713 test for membership should be 'not in'
+1       E721 do not compare types, use 'isinstance()'
+4       W291 trailing whitespace
+
+filename: portmanteau word.py
+1       E222 multiple spaces after operator
+4       E251 unexpected spaces around keyword / parameter equals
+2       E265 block comment should start with '# '
+4       E302 expected 2 blank lines, found 1
+11      E501 line too long (101 > 81 characters)
+6       E711 comparison to None should be 'if cond is None:'
+1       W291 trailing whitespace
+2       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: bricklet_rotary_poti.py
+1       E302 expected 2 blank lines, found 1
+29      E501 line too long (96 > 81 characters)
+6       W291 trailing whitespace
+20      W293 blank line contains whitespace
+
+filename: rpc_server.py
+1       E221 multiple spaces before operator
+4       E251 unexpected spaces around keyword / parameter equals
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E502 the backslash is redundant between brackets
+1       W292 no newline at end of file
+
+filename: AbortAck.py
+1       E302 expected 2 blank lines, found 1
+
+filename: helper.py
+18      E225 missing whitespace around operator
+4       E231 missing whitespace after ':'
+32      E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (88 > 81 characters)
+5       E712 comparison to True should be 'if cond is True:' or 'if cond:'
+
+filename: send.py
+3       E128 continuation line under-indented for visual indent
+4       E251 unexpected spaces around keyword / parameter equals
+1       E401 multiple imports on one line
+4       W191 indentation contains tabs
+2       W291 trailing whitespace
+
+filename: cellular_automata.py
+1       E201 whitespace after '['
+2       E202 whitespace before ']'
+4       E203 whitespace before ':'
+3       E211 whitespace before '('
+1       E225 missing whitespace around operator
+19      E231 missing whitespace after ','
+2       E251 unexpected spaces around keyword / parameter equals
+3       E261 at least two spaces before inline comment
+3       E262 inline comment should start with '# '
+1       E302 expected 2 blank lines, found 1
+5       E303 too many blank lines (3)
+12      E501 line too long (82 > 81 characters)
+1       W391 blank line at end of file
+
+filename: path smoothing.py
+4       E225 missing whitespace around operator
+2       E228 missing whitespace around modulo operator
+1       E231 missing whitespace after ','
+6       E251 unexpected spaces around keyword / parameter equals
+1       E261 at least two spaces before inline comment
+1       E266 too many leading '#' for block comment
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+3       E501 line too long (86 > 81 characters)
+1       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: FixCellSingleUnknownValue.py
+1       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+
+filename: CS101 Final.py
+3       E225 missing whitespace around operator
+10      E231 missing whitespace after ':'
+1       E261 at least two spaces before inline comment
+90      E265 block comment should start with '# '
+13      E266 too many leading '#' for block comment
+6       E302 expected 2 blank lines, found 3
+6       E303 too many blank lines (3)
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (83 > 81 characters)
+5       W293 blank line contains whitespace
+
+filename: number4.py
+
+filename: Missionary & Cannials Problem.py
+4       E225 missing whitespace around operator
+44      E231 missing whitespace after ','
+2       E302 expected 2 blank lines, found 1
+3       E305 expected 2 blank lines after class or function definition, found 1
+1       E711 comparison to None should be 'if cond is None:'
+3       W293 blank line contains whitespace
+
+filename: bubble_sort.py
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E741 ambiguous variable name 'l'
+
+filename: One time pad.py
+1       E113 unexpected indentation
+3       E225 missing whitespace around operator
+1       E231 missing whitespace after ','
+11      E251 unexpected spaces around keyword / parameter equals
+3       E265 block comment should start with '# '
+16      E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (3)
+4       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (854 > 81 characters)
+6       E701 multiple statements on one line (colon)
+1       E741 ambiguous variable name 'l'
+2       W291 trailing whitespace
+3       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: cmtest1.py
+1       W292 no newline at end of file
+
+filename: exceptions.py
+
+filename: autodebug.py
+2       E201 whitespace after '['
+1       E202 whitespace before ']'
+12      E231 missing whitespace after ','
+2       E251 unexpected spaces around keyword / parameter equals
+3       E265 block comment should start with '# '
+2       E266 too many leading '#' for block comment
+3       E302 expected 2 blank lines, found 1
+3       E305 expected 2 blank lines after class or function definition, found 1
+1       E402 module level import not at top of file
+1       E501 line too long (95 > 81 characters)
+1       E711 comparison to None should be 'if cond is None:'
+1       E741 ambiguous variable name 'l'
+9       W291 trailing whitespace
+
+filename: importModuleFromOtherPackages.py
+1       E402 module level import not at top of file
+2       E703 statement ends with a semicolon
+
+filename: math.py
+3       E228 missing whitespace around modulo operator
+1       E265 block comment should start with '# '
+
+filename: validation.py
+1       E225 missing whitespace around operator
+7       E306 expected 1 blank line before a nested definition, found 0
+12      E501 line too long (91 > 81 characters)
+
+filename: snake_board_test.py
+1       E128 continuation line under-indented for visual indent
+4       E203 whitespace before ':'
+1       E222 multiple spaces after operator
+10      E231 missing whitespace after ','
+9       E265 block comment should start with '# '
+5       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E401 multiple imports on one line
+3       E501 line too long (82 > 81 characters)
+75      W191 indentation contains tabs
+2       W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: snakes.py
+1       E221 multiple spaces before operator
+7       E231 missing whitespace after ','
+1       E501 line too long (123 > 81 characters)
+41      W191 indentation contains tabs
+
+filename: yieldandwith.py
+1       E231 missing whitespace after ','
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (90 > 81 characters)
+17      W191 indentation contains tabs
+1       W291 trailing whitespace
+1       W292 no newline at end of file
+1       W293 blank line contains whitespace
+
+filename: sinklib.py
+6       E302 expected 2 blank lines, found 1
+1       E401 multiple imports on one line
+13      E501 line too long (82 > 81 characters)
+15      W291 trailing whitespace
+10      W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: regextest2.py
+
+filename: merge_sort.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E741 ambiguous variable name 'l'
+
+filename: returns.py
+2       E225 missing whitespace around operator
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: __init__.py
+
+filename: prod.py
+
+filename: admin.py
+1       W292 no newline at end of file
+
+filename: Final Search.py
+12      E128 continuation line under-indented for visual indent
+20      E201 whitespace after '['
+1       E202 whitespace before ']'
+1       E222 multiple spaces after operator
+1       E225 missing whitespace around operator
+19      E231 missing whitespace after ','
+2       E251 unexpected spaces around keyword / parameter equals
+3       E261 at least two spaces before inline comment
+1       E262 inline comment should start with '# '
+6       E265 block comment should start with '# '
+2       E266 too many leading '#' for block comment
+7       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (3)
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       E402 module level import not at top of file
+5       E501 line too long (104 > 81 characters)
+1       E731 do not assign a lambda expression, use a def
+18      W291 trailing whitespace
+5       W293 blank line contains whitespace
+
+filename: flask_test.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (108 > 81 characters)
+
+filename: A star.py
+4       E128 continuation line under-indented for visual indent
+3       E201 whitespace after '['
+3       E202 whitespace before ']'
+1       E225 missing whitespace around operator
+1       E231 missing whitespace after ','
+6       E261 at least two spaces before inline comment
+1       E262 inline comment should start with '# '
+1       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (2)
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (83 > 81 characters)
+2       W293 blank line contains whitespace
+
+filename: FixSingleVertexPossibles.py
+2       E225 missing whitespace around operator
+1       E227 missing whitespace around bitwise or shift operator
+1       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+2       E306 expected 1 blank line before a nested definition, found 0
+1       E501 line too long (87 > 81 characters)
+
+filename: single_player.py
+1       E225 missing whitespace around operator
+3       E231 missing whitespace after ','
+1       E302 expected 2 blank lines, found 1
+1       E401 multiple imports on one line
+3       E501 line too long (86 > 81 characters)
+78      W191 indentation contains tabs
+2       W291 trailing whitespace
+1       W292 no newline at end of file
+1       W293 blank line contains whitespace
+
+filename: SLAM.py
+1       E127 continuation line over-indented for visual indent
+14      E221 multiple spaces before operator
+7       E225 missing whitespace around operator
+5       E228 missing whitespace around modulo operator
+56      E231 missing whitespace after ','
+17      E251 unexpected spaces around keyword / parameter equals
+1       E261 at least two spaces before inline comment
+9       E265 block comment should start with '# '
+62      E266 too many leading '#' for block comment
+4       E302 expected 2 blank lines, found 1
+7       E303 too many blank lines (2)
+17      E501 line too long (83 > 81 characters)
+1       E502 the backslash is redundant between brackets
+34      W291 trailing whitespace
+18      W293 blank line contains whitespace
+8       W602 deprecated form of raising exception
+
+filename: Radioactive Decay.py
+1       E225 missing whitespace around operator
+4       E251 unexpected spaces around keyword / parameter equals
+4       E261 at least two spaces before inline comment
+2       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (84 > 81 characters)
+1       W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: config_default.py
+
+filename: bricklet_industrial_digital_out_4.py
+1       E302 expected 2 blank lines, found 1
+21      E501 line too long (83 > 81 characters)
+3       W291 trailing whitespace
+12      W293 blank line contains whitespace
+
+filename: 7cardstud.py
+1       E202 whitespace before ')'
+1       E203 whitespace before ','
+2       E211 whitespace before '('
+3       E225 missing whitespace around operator
+1       E228 missing whitespace around modulo operator
+13      E231 missing whitespace after ','
+2       E251 unexpected spaces around keyword / parameter equals
+1       E265 block comment should start with '# '
+12      E302 expected 2 blank lines, found 1
+3       E305 expected 2 blank lines after class or function definition, found 0
+2       E501 line too long (145 > 81 characters)
+3       E701 multiple statements on one line (colon)
+1       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: Hypothesiser.py
+13      E225 missing whitespace around operator
+8       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+4       E501 line too long (98 > 81 characters)
+6       E711 comparison to None should be 'if cond is None:'
+1       E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+1       W391 blank line at end of file
+
+filename: Lorenz Peaks.py
+2       E225 missing whitespace around operator
+6       E251 unexpected spaces around keyword / parameter equals
+2       E261 at least two spaces before inline comment
+1       E265 block comment should start with '# '
+2       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+8       E501 line too long (105 > 81 characters)
+4       W291 trailing whitespace
+7       W293 blank line contains whitespace
+
+filename: models_filters.py
+
+filename: slice.py
+1       E211 whitespace before '['
+10      E231 missing whitespace after ','
+2       E265 block comment should start with '# '
+
+filename: keyword_arguments.py
+1       E202 whitespace before ')'
+1       E265 block comment should start with '# '
+
+filename: Final.py
+1       E221 multiple spaces before operator
+1       E222 multiple spaces after operator
+2       E225 missing whitespace around operator
+11      E231 missing whitespace after ':'
+7       E251 unexpected spaces around keyword / parameter equals
+28      E265 block comment should start with '# '
+14      E266 too many leading '#' for block comment
+11      E302 expected 2 blank lines, found 1
+3       E305 expected 2 blank lines after class or function definition, found 1
+5       E501 line too long (89 > 81 characters)
+2       E722 do not use bare except'
+1       E741 ambiguous variable name 'l'
+6       W291 trailing whitespace
+
+filename: aRow.py
+6       E301 expected 1 blank line, found 0
+3       E302 expected 2 blank lines, found 1
+
+filename: event.py
+1       E302 expected 2 blank lines, found 1
+
+filename: image.py
+2       E231 missing whitespace after ','
+1       E302 expected 2 blank lines, found 1
+1       E501 line too long (139 > 81 characters)
+
+filename: map_reduce_lambda.py
+8       E501 line too long (119 > 81 characters)
+2       W291 trailing whitespace
+1       W292 no newline at end of file
+
+filename: Decorator.py
+3       E225 missing whitespace around operator
+3       E231 missing whitespace after ','
+4       E265 block comment should start with '# '
+9       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+2       E306 expected 1 blank line before a nested definition, found 0
+1       W291 trailing whitespace
+
+filename: reverse fsm.py
+1       E124 closing bracket does not match visual indentation
+2       E128 continuation line under-indented for visual indent
+4       E201 whitespace after '{'
+2       E202 whitespace before ']'
+9       E203 whitespace before ':'
+2       E225 missing whitespace around operator
+37      E231 missing whitespace after ','
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (100 > 81 characters)
+1       E722 do not use bare except'
+14      W291 trailing whitespace
+2       W293 blank line contains whitespace
+
+filename: client.py
+1       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (2)
+12      W191 indentation contains tabs
+1       W292 no newline at end of file
+
+filename: Hash table.py
+1       E128 continuation line under-indented for visual indent
+11      E231 missing whitespace after ','
+5       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: 28.py
+5       E113 unexpected indentation
+
+filename: modules.py
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 0
+1       E703 statement ends with a semicolon
+
+filename: test_prompt.py
+
+filename: compat.py
+2       E111 indentation is not a multiple of four
+
+filename: zebra puzzle.py
+1       E211 whitespace before '('
+1       E225 missing whitespace around operator
+5       E231 missing whitespace after ','
+8       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+3       E501 line too long (93 > 81 characters)
+
+filename: noreflect.py
+3       E261 at least two spaces before inline comment
+1       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+3       E402 module level import not at top of file
+1       E501 line too long (271 > 81 characters)
+1       W292 no newline at end of file
+1       W293 blank line contains whitespace
+
+filename: cli.py
+1       E302 expected 2 blank lines, found 1
+1       W291 trailing whitespace
+
+filename: manifest.py
+3       E265 block comment should start with '# '
+1       E303 too many blank lines (3)
+5       E501 line too long (84 > 81 characters)
+1       E731 do not assign a lambda expression, use a def
+8       W291 trailing whitespace
+
+filename: packageDemo.py
+1       E501 line too long (82 > 81 characters)
+
+filename: polynomials.py
+2       E111 indentation is not a multiple of four
+2       E222 multiple spaces after operator
+11      E225 missing whitespace around operator
+12      E231 missing whitespace after ','
+3       E261 at least two spaces before inline comment
+2       E265 block comment should start with '# '
+1       E266 too many leading '#' for block comment
+9       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (3)
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E306 expected 1 blank line before a nested definition, found 0
+7       E501 line too long (85 > 81 characters)
+1       E722 do not use bare except'
+1       E731 do not assign a lambda expression, use a def
+2       W291 trailing whitespace
+4       W293 blank line contains whitespace
+
+filename: 0002_auto__add_province.py
+2       E303 too many blank lines (2)
+67      E501 line too long (83 > 81 characters)
+1       W292 no newline at end of file
+
+filename: word_freq_counter.py
+1       E113 unexpected indentation
+1       E116 unexpected indentation (comment)
+1       E225 missing whitespace around operator
+3       E231 missing whitespace after ','
+3       E265 block comment should start with '# '
+1       E266 too many leading '#' for block comment
+3       E302 expected 2 blank lines, found 1
+
+filename: qiubai.py
+2       E501 line too long (120 > 81 characters)
+
+filename: FixCellSingleUnknown.py
+1       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+
+filename: sequence.py
+2       E265 block comment should start with '# '
+
+filename: 3.py
+568     E231 missing whitespace after ';'
+8       E501 line too long (131 > 81 characters)
+568     E702 multiple statements on one line (semicolon)
+1       W391 blank line at end of file
+
+filename: beautifulsoup.py
+2       E101 indentation contains mixed spaces and tabs
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E402 module level import not at top of file
+3       E501 line too long (87 > 81 characters)
+2       W191 indentation contains tabs
+1       W391 blank line at end of file
+
+filename: fabfile.py
+2       E211 whitespace before '('
+1       E225 missing whitespace around operator
+7       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E401 multiple imports on one line
+4       E501 line too long (154 > 81 characters)
+
+filename: Recursive Data structure.py
+19      E231 missing whitespace after ','
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+3       E711 comparison to None should be 'if cond is None:'
+
+filename: cookietest.py
+1       E225 missing whitespace around operator
+10      E265 block comment should start with '# '
+1       W292 no newline at end of file
+
+filename: tk_view.py
+4       E128 continuation line under-indented for visual indent
+3       E202 whitespace before ')'
+8       E203 whitespace before ':'
+1       E221 multiple spaces before operator
+5       E222 multiple spaces after operator
+1       E225 missing whitespace around operator
+23      E231 missing whitespace after ','
+154     E251 unexpected spaces around keyword / parameter equals
+4       E261 at least two spaces before inline comment
+2       E262 inline comment should start with '# '
+11      E265 block comment should start with '# '
+3       E302 expected 2 blank lines, found 1
+11      E303 too many blank lines (3)
+1       E305 expected 2 blank lines after class or function definition, found 3
+22      E501 line too long (109 > 81 characters)
+
+filename: prueba_bottle.py
+1       E128 continuation line under-indented for visual indent
+5       E225 missing whitespace around operator
+13      E231 missing whitespace after ':'
+4       E251 unexpected spaces around keyword / parameter equals
+4       E265 block comment should start with '# '
+4       E302 expected 2 blank lines, found 0
+1       E305 expected 2 blank lines after class or function definition, found 0
+3       E501 line too long (84 > 81 characters)
+3       W291 trailing whitespace
+2       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: FixCellVertexPossibles.py
+1       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+
+filename: terrain.py
+3       E225 missing whitespace around operator
+1       E265 block comment should start with '# '
+1       W391 blank line at end of file
+
+filename: Splaytree.py
+1       E225 missing whitespace around operator
+1       E261 at least two spaces before inline comment
+1       E262 inline comment should start with '# '
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+12      E711 comparison to None should be 'if cond is None:'
+2       E722 do not use bare except'
+2       E741 ambiguous variable name 'l'
+5       W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: receive_logs_topic.py
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       W292 no newline at end of file
+
+filename: multiple_inheritance.py
+2       E265 block comment should start with '# '
+2       E302 expected 2 blank lines, found 1
+
+filename: basic_map.py
+1       E111 indentation is not a multiple of four
+1       E211 whitespace before '('
+6       E225 missing whitespace around operator
+9       E231 missing whitespace after ','
+8       E251 unexpected spaces around keyword / parameter equals
+1       E261 at least two spaces before inline comment
+2       E262 inline comment should start with '# '
+1       E265 block comment should start with '# '
+1       E271 multiple spaces after keyword
+2       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+9       E303 too many blank lines (2)
+16      E501 line too long (96 > 81 characters)
+
+filename: Generator Grammar 262.py
+54      E201 whitespace after '['
+20      E202 whitespace before ']'
+7       E203 whitespace before ','
+1       E222 multiple spaces after operator
+5       E225 missing whitespace around operator
+14      E231 missing whitespace after ','
+4       E251 unexpected spaces around keyword / parameter equals
+9       E261 at least two spaces before inline comment
+11      E265 block comment should start with '# '
+9       E302 expected 2 blank lines, found 1
+2       E303 too many blank lines (3)
+2       E305 expected 2 blank lines after class or function definition, found 3
+3       E501 line too long (94 > 81 characters)
+1       E701 multiple statements on one line (colon)
+2       E711 comparison to None should be 'if cond is not None:'
+11      E712 comparison to True should be 'if cond is True:' or 'if cond:'
+1       E713 test for membership should be 'not in'
+1       E722 do not use bare except'
+30      W291 trailing whitespace
+6       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: norm.py
+1       W292 no newline at end of file
+
+filename: Generalization lowest cost search.py
+1       E201 whitespace after '['
+1       E202 whitespace before ']'
+2       E221 multiple spaces before operator
+2       E225 missing whitespace around operator
+1       E231 missing whitespace after ','
+2       E261 at least two spaces before inline comment
+2       E266 too many leading '#' for block comment
+6       E302 expected 2 blank lines, found 1
+2       E501 line too long (82 > 81 characters)
+1       E731 do not assign a lambda expression, use a def
+
+filename: environment.py
+2       E501 line too long (96 > 81 characters)
+1       W292 no newline at end of file
+
+filename: best flight.py
+2       E225 missing whitespace around operator
+6       E265 block comment should start with '# '
+39      E266 too many leading '#' for block comment
+3       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+3       E501 line too long (90 > 81 characters)
+1       E711 comparison to None should be 'if cond is None:'
+1       W293 blank line contains whitespace
+
+filename: bricklet_temperature.py
+1       E302 expected 2 blank lines, found 1
+14      E501 line too long (102 > 81 characters)
+3       W291 trailing whitespace
+12      W293 blank line contains whitespace
+
+filename: webcrawler.py
+1       E113 unexpected indentation
+1       E222 multiple spaces after operator
+1       E302 expected 2 blank lines, found 1
+1       E501 line too long (133 > 81 characters)
+
+filename: Binary_search.py
+1       E302 expected 2 blank lines, found 1
+1       E741 ambiguous variable name 'l'
+1       W391 blank line at end of file
+
+filename: Hanging Rope.py
+1       E222 multiple spaces after operator
+10      E225 missing whitespace around operator
+1       E228 missing whitespace around modulo operator
+1       E231 missing whitespace after ','
+7       E261 at least two spaces before inline comment
+1       E265 block comment should start with '# '
+1       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (4)
+2       E501 line too long (99 > 81 characters)
+3       W291 trailing whitespace
+
+filename: Iterator.py
+1       E402 module level import not at top of file
+
+filename: mst.py
+1       E201 whitespace after '('
+38      E211 whitespace before '('
+1       E231 missing whitespace after ','
+2       E251 unexpected spaces around keyword / parameter equals
+1       E265 block comment should start with '# '
+11      E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (86 > 81 characters)
+1       E713 test for membership should be 'not in'
+5       W601 .has_key() is deprecated, use 'in'
+
+filename: Inversion.py
+3       E225 missing whitespace around operator
+1       E302 expected 2 blank lines, found 0
+2       E741 ambiguous variable name 'l'
+2       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: ui_uzytkownik.py
+1       E302 expected 2 blank lines, found 1
+21      E501 line too long (89 > 81 characters)
+1       E731 do not assign a lambda expression, use a def
+1       W391 blank line at end of file
+
+filename: bricklet_lcd_20x4.py
+1       E302 expected 2 blank lines, found 1
+9       E501 line too long (84 > 81 characters)
+2       W291 trailing whitespace
+3       W293 blank line contains whitespace
+
+filename: MultipleSolutions.py
+1       E302 expected 2 blank lines, found 1
+1       W391 blank line at end of file
+
+filename: ESRI2TableauFormat.py
+31      E111 indentation is not a multiple of four
+2       E114 indentation is not a multiple of four (comment)
+11      E201 whitespace after '('
+2       E202 whitespace before ')'
+1       E221 multiple spaces before operator
+14      E225 missing whitespace around operator
+1       E227 missing whitespace around bitwise or shift operator
+1       E231 missing whitespace after ';'
+17      E261 at least two spaces before inline comment
+1       E262 inline comment should start with '# '
+6       E265 block comment should start with '# '
+4       E501 line too long (89 > 81 characters)
+1       E702 multiple statements on one line (semicolon)
+15      E703 statement ends with a semicolon
+3       W291 trailing whitespace
+1       W292 no newline at end of file
+5       W293 blank line contains whitespace
+
+filename: Fox and Hen.py
+1       E225 missing whitespace around operator
+7       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (94 > 81 characters)
+4       W291 trailing whitespace
+3       W293 blank line contains whitespace
+
+filename: game.py
+2       E231 missing whitespace after ','
+1       E302 expected 2 blank lines, found 1
+1       E401 multiple imports on one line
+2       W191 indentation contains tabs
+1       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: weighted graph.py
+1       E227 missing whitespace around bitwise or shift operator
+17      E231 missing whitespace after ':'
+2       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (3)
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E711 comparison to None should be 'if cond is None:'
+1       W291 trailing whitespace
+
+filename: read_write.py
+1       E265 block comment should start with '# '
+1       E501 line too long (87 > 81 characters)
+
+filename: SolverWorker.py
+2       E115 expected an indented block (comment)
+1       E124 closing bracket does not match visual indentation
+3       E128 continuation line under-indented for visual indent
+12      E225 missing whitespace around operator
+3       E228 missing whitespace around modulo operator
+11      E231 missing whitespace after ':'
+11      E301 expected 1 blank line, found 0
+2       E302 expected 2 blank lines, found 1
+6       E501 line too long (97 > 81 characters)
+5       E701 multiple statements on one line (colon)
+5       E711 comparison to None should be 'if cond is not None:'
+1       E712 comparison to True should be 'if cond is True:' or 'if cond:'
+1       E722 do not use bare except'
+3       W291 trailing whitespace
+1       W391 blank line at end of file
+
+filename: TestXWing.py
+8       E128 continuation line under-indented for visual indent
+1       E221 multiple spaces before operator
+1       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       W291 trailing whitespace
+
+filename: forms.py
+1       E501 line too long (87 > 81 characters)
+
+filename: iStrategy.py
+1       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+
+filename: HTML Lexcial Analyzer.py
+2       E265 block comment should start with '# '
+5       E266 too many leading '#' for block comment
+13      E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 0
+2       W293 blank line contains whitespace
+
+filename: boston subway.py
+1       E201 whitespace after '['
+1       E202 whitespace before ']'
+1       E225 missing whitespace around operator
+2       E231 missing whitespace after ','
+2       E261 at least two spaces before inline comment
+5       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+9       E501 line too long (84 > 81 characters)
+1       E722 do not use bare except'
+1       E731 do not assign a lambda expression, use a def
+1       W291 trailing whitespace
+2       W293 blank line contains whitespace
+
+filename: flask_crossdomain.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (108 > 81 characters)
+
+filename: Update.py
+1       E228 missing whitespace around modulo operator
+1       E231 missing whitespace after ':'
+3       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+
+filename: dentrite.py
+1       E265 block comment should start with '# '
+1       E302 expected 2 blank lines, found 1
+1       E711 comparison to None should be 'if cond is None:'
+
+filename: bricklet_voltage.py
+1       E302 expected 2 blank lines, found 1
+28      E501 line too long (94 > 81 characters)
+5       W291 trailing whitespace
+20      W293 blank line contains whitespace
+
+filename: change_city.py
+2       E231 missing whitespace after ','
+1       E265 block comment should start with '# '
+1       E402 module level import not at top of file
+1       E501 line too long (87 > 81 characters)
+
+filename: dijkstra.py
+2       E124 closing bracket does not match visual indentation
+2       E201 whitespace after '{'
+23      E203 whitespace before ':'
+15      E211 whitespace before '('
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       W601 .has_key() is deprecated, use 'in'
+
+filename: rot13.py
+1       E228 missing whitespace around modulo operator
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: bacqp_cron.py
+4       E251 unexpected spaces around keyword / parameter equals
+2       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (2)
+1       E305 expected 2 blank lines after class or function definition, found 1
+4       E501 line too long (87 > 81 characters)
+2       W291 trailing whitespace
+8       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: insert2.py
+
+filename: delta debugger small.py
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       W293 blank line contains whitespace
+
+filename: Find the source.py
+12      E221 multiple spaces before operator
+1       E265 block comment should start with '# '
+1       E266 too many leading '#' for block comment
+1       E271 multiple spaces after keyword
+9       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       E711 comparison to None should be 'if cond is None:'
+1       E722 do not use bare except'
+4       W291 trailing whitespace
+12      W293 blank line contains whitespace
+1       W601 .has_key() is deprecated, use 'in'
+
+filename: 0009_auto__add_field_location_send_media.py
+2       E303 too many blank lines (2)
+73      E501 line too long (85 > 81 characters)
+1       W292 no newline at end of file
+
+filename: MinCut.py
+1       E225 missing whitespace around operator
+1       E228 missing whitespace around modulo operator
+29      E231 missing whitespace after ','
+2       E251 unexpected spaces around keyword / parameter equals
+6       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E712 comparison to True should be 'if cond is True:' or 'if cond:'
+1       E741 ambiguous variable name 'l'
+5       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: kalman filter matrix.py
+5       E222 multiple spaces after operator
+31      E231 missing whitespace after ','
+9       E261 at least two spaces before inline comment
+1       E265 block comment should start with '# '
+3       E266 too many leading '#' for block comment
+2       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (3)
+2       E305 expected 2 blank lines after class or function definition, found 3
+8       E501 line too long (83 > 81 characters)
+2       E741 ambiguous variable name 'I'
+22      W293 blank line contains whitespace
+6       W602 deprecated form of raising exception
+
+filename: 0002_info.py
+1       E501 line too long (114 > 81 characters)
+
+filename: bricklet_temperature_ir.py
+1       E302 expected 2 blank lines, found 1
+36      E501 line too long (116 > 81 characters)
+11      W291 trailing whitespace
+24      W293 blank line contains whitespace
+
+filename: FixGrid.py
+1       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+
+filename: Parse 262.py
+1       E127 continuation line over-indented for visual indent
+5       E201 whitespace after '['
+5       E202 whitespace before ']'
+3       E225 missing whitespace around operator
+29      E231 missing whitespace after ','
+8       E265 block comment should start with '# '
+27      E266 too many leading '#' for block comment
+5       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 0
+3       E501 line too long (87 > 81 characters)
+43      W291 trailing whitespace
+1       W293 blank line contains whitespace
+1       W391 blank line at end of file
+5       W603 '<>' is deprecated, use '!='
+
+filename: number2.py
+1       E501 line too long (94 > 81 characters)
+1       W292 no newline at end of file
+
+filename: AlgorithmHomework.py
+3       E501 line too long (96 > 81 characters)
+
+filename: UnSolveable.py
+1       E302 expected 2 blank lines, found 1
+1       W391 blank line at end of file
+
+filename: tsp.py
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: main-Unit5.py
+1       E203 whitespace before ':'
+1       E221 multiple spaces before operator
+1       E225 missing whitespace around operator
+3       E231 missing whitespace after ':'
+22      E251 unexpected spaces around keyword / parameter equals
+7       E301 expected 1 blank line, found 0
+22      E302 expected 2 blank lines, found 0
+4       E305 expected 2 blank lines after class or function definition, found 1
+4       E501 line too long (84 > 81 characters)
+1       W293 blank line contains whitespace
+
+filename: particle filter car final.py
+1       E114 indentation is not a multiple of four (comment)
+1       E116 unexpected indentation (comment)
+1       E127 continuation line over-indented for visual indent
+3       E221 multiple spaces before operator
+4       E225 missing whitespace around operator
+1       E231 missing whitespace after ','
+4       E251 unexpected spaces around keyword / parameter equals
+22      E261 at least two spaces before inline comment
+2       E262 inline comment should start with '# '
+2       E265 block comment should start with '# '
+20      E266 too many leading '#' for block comment
+4       E302 expected 2 blank lines, found 1
+5       E303 too many blank lines (2)
+1       E305 expected 2 blank lines after class or function definition, found 3
+6       E501 line too long (114 > 81 characters)
+21      W291 trailing whitespace
+10      W293 blank line contains whitespace
+1       W391 blank line at end of file
+1       W602 deprecated form of raising exception
+
+filename: cryp-W3.py
+2       E201 whitespace after '['
+6       E225 missing whitespace around operator
+1       E228 missing whitespace around modulo operator
+12      E231 missing whitespace after ','
+14      E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+3       W291 trailing whitespace
+
+filename: permissions.py
+
+filename: grid.py
+17      E225 missing whitespace around operator
+5       E228 missing whitespace around modulo operator
+5       E231 missing whitespace after ':'
+41      E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+3       E501 line too long (106 > 81 characters)
+3       E711 comparison to None should be 'if cond is not None:'
+3       E712 comparison to True should be 'if cond is True:' or 'if cond:'
+
+filename: widgets.py
+2       E302 expected 2 blank lines, found 1
+2       E713 test for membership should be 'not in'
+1       W291 trailing whitespace
+1       W292 no newline at end of file
+
+filename: dbtest2.py
+1       E231 missing whitespace after ','
+1       E703 statement ends with a semicolon
+2       W291 trailing whitespace
+1       W292 no newline at end of file
+5       W293 blank line contains whitespace
+
+filename: wsgiapp.py
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E401 multiple imports on one line
+1       E402 module level import not at top of file
+1       E501 line too long (109 > 81 characters)
+1       E702 multiple statements on one line (semicolon)
+
+filename: ip_connection.py
+1       E222 multiple spaces after operator
+1       E261 at least two spaces before inline comment
+10      E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (2)
+2       E305 expected 2 blank lines after class or function definition, found 1
+14      E501 line too long (87 > 81 characters)
+3       E713 test for membership should be 'not in'
+2       E721 do not compare types, use 'isinstance()'
+1       E722 do not use bare except'
+5       W291 trailing whitespace
+6       W293 blank line contains whitespace
+
+filename: azure_webapp_debug.py
+1       W391 blank line at end of file
+
+filename: haversine.py
+1       E222 multiple spaces after operator
+2       E265 block comment should start with '# '
+1       E302 expected 2 blank lines, found 4
+4       E303 too many blank lines (4)
+2       E501 line too long (112 > 81 characters)
+21      W191 indentation contains tabs
+3       W291 trailing whitespace
+1       W292 no newline at end of file
+
+filename: REinterp testcase.py
+2       E201 whitespace after '('
+1       E202 whitespace before ']'
+13      E302 expected 2 blank lines, found 1
+1       E501 line too long (150 > 81 characters)
+
+filename: cryp.py
+1       E111 indentation is not a multiple of four
+2       E201 whitespace after '['
+5       E225 missing whitespace around operator
+2       E228 missing whitespace around modulo operator
+32      E231 missing whitespace after ','
+2       E265 block comment should start with '# '
+17      E302 expected 2 blank lines, found 1
+3       E305 expected 2 blank lines after class or function definition, found 1
+12      E501 line too long (285 > 81 characters)
+4       W291 trailing whitespace
+1       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: StrategiesFactory.py
+1       E128 continuation line under-indented for visual indent
+3       E225 missing whitespace around operator
+2       E228 missing whitespace around modulo operator
+2       E231 missing whitespace after ':'
+5       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+3       E501 line too long (155 > 81 characters)
+1       E712 comparison to True should be 'if cond is True:' or 'if cond:'
+2       E722 do not use bare except'
+
+filename: number3.py
+
+filename: brick_imu.py
+1       E302 expected 2 blank lines, found 1
+69      E501 line too long (132 > 81 characters)
+30      W291 trailing whitespace
+31      W293 blank line contains whitespace
+
+filename: wsgi.py
+1       E501 line too long (82 > 81 characters)
+
+filename: threading.py
+4       E251 unexpected spaces around keyword / parameter equals
+1       E302 expected 2 blank lines, found 1
+
+filename: update1.py
+2       E231 missing whitespace after ':'
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       W391 blank line at end of file
+
+filename: bricklet_barometer.py
+1       E302 expected 2 blank lines, found 1
+40      E501 line too long (102 > 81 characters)
+24      W293 blank line contains whitespace
+
+filename: test1.py
+1       W391 blank line at end of file
+
+filename: asap.py
+2       E228 missing whitespace around modulo operator
+1       E231 missing whitespace after ','
+2       E265 block comment should start with '# '
+
+filename: 0014_auto__add_field_picture_position.py
+2       E303 too many blank lines (2)
+76      E501 line too long (93 > 81 characters)
+1       W292 no newline at end of file
+
+filename: simulation2.py
+1       E501 line too long (96 > 81 characters)
+
+filename: write_dictionary.py
+2       E101 indentation contains mixed spaces and tabs
+1       E231 missing whitespace after ','
+1       E401 multiple imports on one line
+1       W191 indentation contains tabs
+1       W293 blank line contains whitespace
+
+filename: AsyncSolverFactory.py
+2       E225 missing whitespace around operator
+3       E228 missing whitespace around modulo operator
+3       E231 missing whitespace after ':'
+1       E302 expected 2 blank lines, found 1
+2       E501 line too long (94 > 81 characters)
+
+filename: HTML interpreter.py
+1       E225 missing whitespace around operator
+3       E231 missing whitespace after ','
+2       E251 unexpected spaces around keyword / parameter equals
+9       E261 at least two spaces before inline comment
+8       E266 too many leading '#' for block comment
+1       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (3)
+1       E305 expected 2 blank lines after class or function definition, found 3
+1       E501 line too long (86 > 81 characters)
+3       W291 trailing whitespace
+
+filename: mode.py
+5       W191 indentation contains tabs
+1       W292 no newline at end of file
+
+filename: Safe Return.py
+2       E101 indentation contains mixed spaces and tabs
+2       E115 expected an indented block (comment)
+2       E225 missing whitespace around operator
+20      E251 unexpected spaces around keyword / parameter equals
+17      E261 at least two spaces before inline comment
+6       E265 block comment should start with '# '
+3       E302 expected 2 blank lines, found 1
+3       E303 too many blank lines (3)
+3       E305 expected 2 blank lines after class or function definition, found 1
+14      E501 line too long (123 > 81 characters)
+1       E703 statement ends with a semicolon
+1       W191 indentation contains tabs
+8       W291 trailing whitespace
+7       W293 blank line contains whitespace
+
+filename: 22.py
+5       E113 unexpected indentation
+
+filename: world_state.py
+2       E203 whitespace before ':'
+2       E231 missing whitespace after ','
+10      E251 unexpected spaces around keyword / parameter equals
+1       E265 block comment should start with '# '
+1       E303 too many blank lines (2)
+6       E501 line too long (91 > 81 characters)
+1       W391 blank line at end of file
+
+filename: Factorial.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: FixCellPossiblesFromAdjacentCells.py
+2       E225 missing whitespace around operator
+1       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+
+filename: bricklet_joystick.py
+1       E302 expected 2 blank lines, found 1
+33      E501 line too long (118 > 81 characters)
+5       W291 trailing whitespace
+22      W293 blank line contains whitespace
+
+filename: mobile.py
+1       E302 expected 2 blank lines, found 1
+1       E501 line too long (84 > 81 characters)
+3       E703 statement ends with a semicolon
+2       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: client_configuration.py
+2       E128 continuation line under-indented for visual indent
+3       E265 block comment should start with '# '
+2       E302 expected 2 blank lines, found 1
+3       E501 line too long (128 > 81 characters)
+1       W292 no newline at end of file
+2       W601 .has_key() is deprecated, use 'in'
+
+filename: particle filter car.py
+1       E114 indentation is not a multiple of four (comment)
+1       E116 unexpected indentation (comment)
+3       E221 multiple spaces before operator
+2       E225 missing whitespace around operator
+2       E251 unexpected spaces around keyword / parameter equals
+14      E261 at least two spaces before inline comment
+2       E262 inline comment should start with '# '
+45      E265 block comment should start with '# '
+49      E266 too many leading '#' for block comment
+1       E302 expected 2 blank lines, found 1
+2       E303 too many blank lines (2)
+4       E501 line too long (95 > 81 characters)
+7       W291 trailing whitespace
+9       W293 blank line contains whitespace
+1       W602 deprecated form of raising exception
+
+filename: solve mistery.py
+1       E111 indentation is not a multiple of four
+1       E127 continuation line over-indented for visual indent
+8       E128 continuation line under-indented for visual indent
+2       E203 whitespace before ':'
+4       E221 multiple spaces before operator
+4       E225 missing whitespace around operator
+30      E231 missing whitespace after ','
+1       E261 at least two spaces before inline comment
+1       E266 too many leading '#' for block comment
+11      E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       E722 do not use bare except'
+18      W291 trailing whitespace
+12      W293 blank line contains whitespace
+4       W601 .has_key() is deprecated, use 'in'
+
+filename: Javascript parser.py
+4       E111 indentation is not a multiple of four
+1       E128 continuation line under-indented for visual indent
+2       E201 whitespace after '['
+5       E231 missing whitespace after ','
+3       E266 too many leading '#' for block comment
+31      E302 expected 2 blank lines, found 1
+3       E305 expected 2 blank lines after class or function definition, found 1
+4       E402 module level import not at top of file
+8       E501 line too long (86 > 81 characters)
+1       E701 multiple statements on one line (colon)
+17      W291 trailing whitespace
+7       W293 blank line contains whitespace
+
+filename: segment.py
+3       E302 expected 2 blank lines, found 1
+
+filename: 0002_auto_20150716_0547.py
+
+filename: simple.py
+1       E228 missing whitespace around modulo operator
+1       E231 missing whitespace after ','
+1       E265 block comment should start with '# '
+1       W291 trailing whitespace
+1       W292 no newline at end of file
+3       W293 blank line contains whitespace
+
+filename: constantly connected.py
+20      E231 missing whitespace after ':'
+3       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+5       E712 comparison to True should be 'if cond is True:' or 'if cond:'
+
+filename: generator.py
+1       E203 whitespace before ','
+1       E225 missing whitespace around operator
+4       E231 missing whitespace after ','
+2       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+12      W191 indentation contains tabs
+1       W292 no newline at end of file
+
+filename: distance oracle.py
+2       E231 missing whitespace after ':'
+4       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (94 > 81 characters)
+
+filename: localization 2D.py
+2       E203 whitespace before ','
+19      E231 missing whitespace after ','
+11      E265 block comment should start with '# '
+3       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (3)
+2       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (83 > 81 characters)
+1       W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: testhello.py
+1       W292 no newline at end of file
+
+filename: student.py
+
+filename: LillysFile.py
+1       E501 line too long (95 > 81 characters)
+1       W292 no newline at end of file
+
+filename: comments.py
+1       E265 block comment should start with '# '
+
+filename: model.py
+1       E128 continuation line under-indented for visual indent
+1       E202 whitespace before ')'
+1       E261 at least two spaces before inline comment
+1       E302 expected 2 blank lines, found 1
+6       E501 line too long (95 > 81 characters)
+2       E731 do not assign a lambda expression, use a def
+2       W293 blank line contains whitespace
+
+filename: homework.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: clustering.py
+12      E211 whitespace before '('
+1       E231 missing whitespace after ','
+6       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (90 > 81 characters)
+3       W601 .has_key() is deprecated, use 'in'
+
+filename: gs_log_likelihood.py
+1       E128 continuation line under-indented for visual indent
+2       E266 too many leading '#' for block comment
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (91 > 81 characters)
+
+filename: smtpsink.py
+11      E501 line too long (82 > 81 characters)
+15      W291 trailing whitespace
+1       W292 no newline at end of file
+
+filename: fixture_provinces.py
+1       E401 multiple imports on one line
+1       W293 blank line contains whitespace
+
+filename: 27.py
+5       E113 unexpected indentation
+
+filename: zip.py
+2       E231 missing whitespace after ','
+2       E265 block comment should start with '# '
+
+filename: 0008_auto__add_field_profile_editor.py
+2       E303 too many blank lines (2)
+72      E501 line too long (85 > 81 characters)
+1       W292 no newline at end of file
+
+filename: organisingsystems.py
+10      E111 indentation is not a multiple of four
+1       E203 whitespace before ','
+25      E225 missing whitespace around operator
+52      E231 missing whitespace after ','
+44      E265 block comment should start with '# '
+1       E302 expected 2 blank lines, found 0
+2       E303 too many blank lines (2)
+1       E305 expected 2 blank lines after class or function definition, found 1
+6       E501 line too long (103 > 81 characters)
+1       E701 multiple statements on one line (colon)
+3       W293 blank line contains whitespace
+
+filename: Racetrack Control.py
+2       E221 multiple spaces before operator
+8       E251 unexpected spaces around keyword / parameter equals
+2       E261 at least two spaces before inline comment
+3       E265 block comment should start with '# '
+2       E266 too many leading '#' for block comment
+1       E302 expected 2 blank lines, found 4
+4       E303 too many blank lines (2)
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (82 > 81 characters)
+9       W291 trailing whitespace
+3       W293 blank line contains whitespace
+
+filename: apis.py
+1       E225 missing whitespace around operator
+8       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E401 multiple imports on one line
+9       E501 line too long (92 > 81 characters)
+
+filename: jsgrammar.py
+4       E111 indentation is not a multiple of four
+2       E201 whitespace after '['
+7       E231 missing whitespace after ','
+47      E265 block comment should start with '# '
+20      E266 too many leading '#' for block comment
+34      E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+4       E402 module level import not at top of file
+8       E501 line too long (88 > 81 characters)
+1       E701 multiple statements on one line (colon)
+17      W291 trailing whitespace
+7       W293 blank line contains whitespace
+
+filename: matchtest.py
+1       E265 block comment should start with '# '
+2       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: science60Contents.py
+5       E501 line too long (92 > 81 characters)
+
+filename: brick_master.py
+1       E302 expected 2 blank lines, found 1
+2       E303 too many blank lines (2)
+85      E501 line too long (95 > 81 characters)
+18      W291 trailing whitespace
+90      W293 blank line contains whitespace
+
+filename: TestFixCellVertexPossibles.py
+8       E128 continuation line under-indented for visual indent
+1       E221 multiple spaces before operator
+1       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       W291 trailing whitespace
+
+filename: cavern_map.py
+1       E201 whitespace after '('
+2       E203 whitespace before ':'
+11      E231 missing whitespace after ','
+3       E251 unexpected spaces around keyword / parameter equals
+1       E303 too many blank lines (4)
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       W292 no newline at end of file
+
+filename: ListComprehensions.py
+1       E501 line too long (107 > 81 characters)
+2       E741 ambiguous variable name 'l'
+
+filename: testCategory.py
+2       E501 line too long (85 > 81 characters)
+
+filename: reverse_linked_list.py
+1       E225 missing whitespace around operator
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E741 ambiguous variable name 'l'
+1       W292 no newline at end of file
+
+filename: slave.py
+1       E128 continuation line under-indented for visual indent
+1       E261 at least two spaces before inline comment
+3       E501 line too long (94 > 81 characters)
+3       E701 multiple statements on one line (colon)
+1       W293 blank line contains whitespace
+
+filename: bricklet_current25.py
+1       E302 expected 2 blank lines, found 1
+29      E501 line too long (94 > 81 characters)
+6       W291 trailing whitespace
+23      W293 blank line contains whitespace
+
+filename: more pour.py
+1       E201 whitespace after '['
+1       E202 whitespace before ']'
+2       E225 missing whitespace around operator
+4       E231 missing whitespace after ','
+2       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+6       E501 line too long (92 > 81 characters)
+1       E711 comparison to None should be 'if cond is None:'
+1       E731 do not assign a lambda expression, use a def
+2       W291 trailing whitespace
+2       W293 blank line contains whitespace
+
+filename: heap.py
+14      E211 whitespace before '('
+1       W391 blank line at end of file
+
+filename: bricklet_distance_ir.py
+1       E302 expected 2 blank lines, found 1
+35      E501 line too long (96 > 81 characters)
+5       W291 trailing whitespace
+23      W293 blank line contains whitespace
+
+filename: 0012_auto__del_field_picture_position__add_field_picture_order.py
+2       E303 too many blank lines (2)
+75      E501 line too long (85 > 81 characters)
+1       W292 no newline at end of file
+
+filename: logic puzzle.py
+4       E225 missing whitespace around operator
+9       E231 missing whitespace after ','
+3       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: optimization.py
+7       E221 multiple spaces before operator
+35      E231 missing whitespace after ','
+3       E261 at least two spaces before inline comment
+3       E302 expected 2 blank lines, found 0
+2       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (84 > 81 characters)
+13      W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: renderer.py
+4       E251 unexpected spaces around keyword / parameter equals
+1       E303 too many blank lines (2)
+
+filename: line_shortest_path.py
+
+filename: colors.py
+2       E231 missing whitespace after ','
+5       W191 indentation contains tabs
+1       W292 no newline at end of file
+
+filename: biparite.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E711 comparison to None should be 'if cond is None:'
+
+filename: job.py
+1       E501 line too long (89 > 81 characters)
+1       W291 trailing whitespace
+
+filename: Track line statistic.py
+1       E127 continuation line over-indented for visual indent
+8       E128 continuation line under-indented for visual indent
+2       E203 whitespace before ':'
+4       E221 multiple spaces before operator
+2       E225 missing whitespace around operator
+29      E231 missing whitespace after ','
+1       E261 at least two spaces before inline comment
+1       E266 too many leading '#' for block comment
+11      E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (83 > 81 characters)
+1       E722 do not use bare except'
+17      W291 trailing whitespace
+13      W293 blank line contains whitespace
+5       W601 .has_key() is deprecated, use 'in'
+
+filename: client_test.py
+2       W191 indentation contains tabs
+1       W292 no newline at end of file
+
+filename: while.py
+2       E225 missing whitespace around operator
+
+filename: Bonsaikon.py
+2       E221 multiple spaces before operator
+3       E225 missing whitespace around operator
+12      E231 missing whitespace after ':'
+2       E251 unexpected spaces around keyword / parameter equals
+2       E261 at least two spaces before inline comment
+6       E265 block comment should start with '# '
+1       E266 too many leading '#' for block comment
+5       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+8       E501 line too long (92 > 81 characters)
+2       E711 comparison to None should be 'if cond is None:'
+3       E721 do not compare types, use 'isinstance()'
+3       W291 trailing whitespace
+9       W293 blank line contains whitespace
+3       W601 .has_key() is deprecated, use 'in'
+
+filename: test_helper.py
+
+filename: commonMechine2.py
+
+filename: bowling.py
+1       E225 missing whitespace around operator
+7       E231 missing whitespace after ','
+5       E271 multiple spaces after keyword
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: helloweb.py
+1       E302 expected 2 blank lines, found 1
+
+filename: settings.py
+
+filename: Custom.py
+1       E228 missing whitespace around modulo operator
+1       E231 missing whitespace after ':'
+3       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+
+filename: hello.py
+1       E305 expected 2 blank lines after class or function definition, found 0
+
+filename: downloadtest.py
+1       E501 line too long (114 > 81 characters)
+
+filename: Abort.py
+1       E302 expected 2 blank lines, found 1
+
+filename: bricklet_io16.py
+1       E302 expected 2 blank lines, found 1
+25      E501 line too long (88 > 81 characters)
+19      W293 blank line contains whitespace
+
+filename: receive_logs_direct.py
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       W292 no newline at end of file
+
+filename: excep.py
+1       E101 indentation contains mixed spaces and tabs
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       W191 indentation contains tabs
+
+filename: bricklet_io4.py
+1       E302 expected 2 blank lines, found 1
+20      E501 line too long (85 > 81 characters)
+19      W293 blank line contains whitespace
+
+filename: QHash.py
+1       E201 whitespace after '('
+1       E202 whitespace before ')'
+1       E222 multiple spaces after operator
+14      E225 missing whitespace around operator
+1       E231 missing whitespace after ','
+16      E265 block comment should start with '# '
+1       E302 expected 2 blank lines, found 1
+2       E303 too many blank lines (2)
+1       E401 multiple imports on one line
+4       E501 line too long (95 > 81 characters)
+1       E722 do not use bare except'
+5       W291 trailing whitespace
+49      W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: 0003_auto__add_region__add_field_province_region.py
+2       E303 too many blank lines (2)
+71      E501 line too long (83 > 81 characters)
+1       W292 no newline at end of file
+
+filename: CBC implementation.py
+1       E266 too many leading '#' for block comment
+14      E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+3       E501 line too long (137 > 81 characters)
+7       W291 trailing whitespace
+5       W293 blank line contains whitespace
+
+filename: 4_loop.py
+
+filename: 0005_auto.py
+2       E303 too many blank lines (2)
+72      E501 line too long (93 > 81 characters)
+1       W292 no newline at end of file
+
+filename: merge_sort2.py
+1       E302 expected 2 blank lines, found 1
+1       E741 ambiguous variable name 'l'
+1       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: train.py
+8       E128 continuation line under-indented for visual indent
+2       E231 missing whitespace after ':'
+2       E261 at least two spaces before inline comment
+4       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+6       E501 line too long (94 > 81 characters)
+
+filename: receive_logs.py
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       W292 no newline at end of file
+
+filename: food.py
+1       E231 missing whitespace after ','
+1       E302 expected 2 blank lines, found 1
+13      W191 indentation contains tabs
+1       W292 no newline at end of file
+
+filename: Hash collision.py
+1       E227 missing whitespace around bitwise or shift operator
+23      E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       E402 module level import not at top of file
+5       E501 line too long (84 > 81 characters)
+4       W291 trailing whitespace
+4       W293 blank line contains whitespace
+
+filename: Market Exchange.py
+9       E201 whitespace after '['
+56      E203 whitespace before ','
+117     E231 missing whitespace after ','
+1       E261 at least two spaces before inline comment
+1       E262 inline comment should start with '# '
+3       E265 block comment should start with '# '
+1       E501 line too long (124 > 81 characters)
+1       E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+14      W291 trailing whitespace
+
+filename: Generalization shortest path search.py
+1       E201 whitespace after '['
+1       E202 whitespace before ']'
+4       E231 missing whitespace after ','
+1       E265 block comment should start with '# '
+1       E266 too many leading '#' for block comment
+7       E302 expected 2 blank lines, found 1
+4       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (85 > 81 characters)
+1       E711 comparison to None should be 'if cond is None:'
+1       E731 do not assign a lambda expression, use a def
+13      W291 trailing whitespace
+2       W293 blank line contains whitespace
+
+filename: testhellomodule.py
+1       E402 module level import not at top of file
+1       W292 no newline at end of file
+
+filename: More Statistics1.py
+1       E127 continuation line over-indented for visual indent
+8       E128 continuation line under-indented for visual indent
+1       E203 whitespace before ':'
+4       E221 multiple spaces before operator
+3       E225 missing whitespace around operator
+1       E231 missing whitespace after ','
+2       E261 at least two spaces before inline comment
+1       E266 too many leading '#' for block comment
+8       E302 expected 2 blank lines, found 0
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (128 > 81 characters)
+1       E722 do not use bare except'
+16      W291 trailing whitespace
+13      W293 blank line contains whitespace
+4       W601 .has_key() is deprecated, use 'in'
+
+filename: Xwing.py
+1       E115 expected an indented block (comment)
+2       E129 visually indented line with same indent as next logical line
+2       E202 whitespace before ')'
+18      E225 missing whitespace around operator
+2       E228 missing whitespace around modulo operator
+3       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+22      E501 line too long (173 > 81 characters)
+1       W391 blank line at end of file
+
+filename: posttest.py
+1       E201 whitespace after '{'
+1       E203 whitespace before ':'
+3       E231 missing whitespace after ':'
+1       E265 block comment should start with '# '
+1       E501 line too long (120 > 81 characters)
+1       E703 statement ends with a semicolon
+1       W291 trailing whitespace
+1       W292 no newline at end of file
+1       W293 blank line contains whitespace
+
+filename: wildfire.py
+14      E251 unexpected spaces around keyword / parameter equals
+22      E261 at least two spaces before inline comment
+3       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+6       E501 line too long (242 > 81 characters)
+1       W291 trailing whitespace
+3       W293 blank line contains whitespace
+
+filename: basetask.py
+1       E203 whitespace before ':'
+1       E302 expected 2 blank lines, found 1
+
+filename: clustering2.py
+1       E225 missing whitespace around operator
+3       E231 missing whitespace after ','
+1       E302 expected 2 blank lines, found 1
+1       W293 blank line contains whitespace
+
+filename: kalman prediction.py
+2       E265 block comment should start with '# '
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       W291 trailing whitespace
+
+filename: SAT preprocess.py
+2       E127 continuation line over-indented for visual indent
+2       E225 missing whitespace around operator
+2       E231 missing whitespace after ','
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (82 > 81 characters)
+3       W293 blank line contains whitespace
+
+filename: multi_player_server.py
+1       E231 missing whitespace after ','
+1       E265 block comment should start with '# '
+1       E302 expected 2 blank lines, found 1
+1       E401 multiple imports on one line
+5       E501 line too long (88 > 81 characters)
+56      W191 indentation contains tabs
+1       W291 trailing whitespace
+1       W292 no newline at end of file
+
+filename: breaks.py
+2       E211 whitespace before '('
+2       E265 block comment should start with '# '
+
+filename: thread.py
+8       E203 whitespace before ':'
+1       E222 multiple spaces after operator
+5       E231 missing whitespace after ','
+1       E265 block comment should start with '# '
+4       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (2)
+1       E401 multiple imports on one line
+2       E402 module level import not at top of file
+1       E501 line too long (87 > 81 characters)
+112     W191 indentation contains tabs
+1       W292 no newline at end of file
+2       W293 blank line contains whitespace
+
+filename: surface_map.py
+4       E127 continuation line over-indented for visual indent
+1       E201 whitespace after '('
+7       E203 whitespace before ':'
+1       E211 whitespace before '('
+5       E225 missing whitespace around operator
+53      E231 missing whitespace after ':'
+25      E251 unexpected spaces around keyword / parameter equals
+2       E261 at least two spaces before inline comment
+2       E262 inline comment should start with '# '
+11      E265 block comment should start with '# '
+4       E302 expected 2 blank lines, found 5
+16      E303 too many blank lines (3)
+1       E305 expected 2 blank lines after class or function definition, found 1
+30      E501 line too long (138 > 81 characters)
+
+filename: 210.py
+5       E113 unexpected indentation
+
+filename: simulation1.py
+1       W292 no newline at end of file
+
+filename: MST.py
+1       E231 missing whitespace after ':'
+1       E501 line too long (127 > 81 characters)
+1       E711 comparison to None should be 'if cond is None:'
+5       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: floor puzzle & pal.py
+6       E127 continuation line over-indented for visual indent
+1       E225 missing whitespace around operator
+9       E231 missing whitespace after ','
+6       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+4       E501 line too long (104 > 81 characters)
+
+filename: Single Corner Car.py
+2       E127 continuation line over-indented for visual indent
+20      E251 unexpected spaces around keyword / parameter equals
+16      E261 at least two spaces before inline comment
+5       E265 block comment should start with '# '
+1       E266 too many leading '#' for block comment
+3       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+6       E501 line too long (105 > 81 characters)
+3       W291 trailing whitespace
+3       W293 blank line contains whitespace
+
+filename: 10.py
+8       E203 whitespace before ':'
+4       E501 line too long (129 > 81 characters)
+
+filename: url.py
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (146 > 81 characters)
+1       W292 no newline at end of file
+
+filename: callee.py
+1       W292 no newline at end of file
+
+filename: automated_snake.py
+1       E302 expected 2 blank lines, found 1
+12      W191 indentation contains tabs
+1       W292 no newline at end of file
+
+filename: parsetab.py
+6       E111 indentation is not a multiple of four
+4       E201 whitespace after '{'
+177     E231 missing whitespace after ':'
+9       E501 line too long (334 > 81 characters)
+2       E701 multiple statements on one line (colon)
+2       E713 test for membership should be 'not in'
+1       W293 blank line contains whitespace
+
+filename: gui.py
+1       E302 expected 2 blank lines, found 1
+2       W291 trailing whitespace
+4       W293 blank line contains whitespace
+
+filename: merge_effects.py
+10      E231 missing whitespace after ','
+
+filename: 1.py
+3       E113 unexpected indentation
+1       W293 blank line contains whitespace
+
+filename: Game Theory.py
+2       E251 unexpected spaces around keyword / parameter equals
+4       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: LogicError.py
+1       E302 expected 2 blank lines, found 1
+
+filename: fake graphics.py
+36      E112 expected an indented block
+1       E122 continuation line missing indentation or outdented
+1       E211 whitespace before '('
+7       E231 missing whitespace after ','
+1       E261 at least two spaces before inline comment
+3       E265 block comment should start with '# '
+7       E302 expected 2 blank lines, found 1
+8       E305 expected 2 blank lines after class or function definition, found 0
+3       E402 module level import not at top of file
+1       E501 line too long (91 > 81 characters)
+68      W291 trailing whitespace
+
+filename: operate.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: parking lots.py
+1       E201 whitespace after '['
+1       E202 whitespace before ']'
+2       E203 whitespace before ':'
+8       E225 missing whitespace around operator
+3       E228 missing whitespace around modulo operator
+2       E231 missing whitespace after ','
+2       E261 at least two spaces before inline comment
+1       E265 block comment should start with '# '
+10      E266 too many leading '#' for block comment
+6       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (3)
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E306 expected 1 blank line before a nested definition, found 0
+2       E501 line too long (107 > 81 characters)
+1       E701 multiple statements on one line (colon)
+9       W291 trailing whitespace
+
+filename: Bridge problem.py
+2       E201 whitespace after '['
+2       E202 whitespace before ']'
+4       E221 multiple spaces before operator
+4       E225 missing whitespace around operator
+2       E227 missing whitespace around bitwise or shift operator
+14      E231 missing whitespace after ','
+1       E265 block comment should start with '# '
+14      E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+7       E501 line too long (83 > 81 characters)
+1       E701 multiple statements on one line (colon)
+6       W291 trailing whitespace
+2       W293 blank line contains whitespace
+
+filename: drawtree.py
+1       E221 multiple spaces before operator
+1       E301 expected 1 blank line, found 0
+3       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E306 expected 1 blank line before a nested definition, found 0
+2       E701 multiple statements on one line (colon)
+1       E702 multiple statements on one line (semicolon)
+1       W292 no newline at end of file
+
+filename: particle filter.py
+5       E221 multiple spaces before operator
+2       E261 at least two spaces before inline comment
+1       E262 inline comment should start with '# '
+7       E265 block comment should start with '# '
+1       E302 expected 2 blank lines, found 1
+5       E303 too many blank lines (2)
+1       E305 expected 2 blank lines after class or function definition, found 1
+6       E501 line too long (90 > 81 characters)
+8       E703 statement ends with a semicolon
+1       W291 trailing whitespace
+17      W293 blank line contains whitespace
+4       W602 deprecated form of raising exception
+
+filename: neuron.py
+1       E111 indentation is not a multiple of four
+1       E302 expected 2 blank lines, found 1
+4       E501 line too long (83 > 81 characters)
+1       E711 comparison to None should be 'if cond is not None:'
+6       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: StrategyDifficulty.py
+1       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+
+filename: yay.py
+7       E231 missing whitespace after ','
+1       E302 expected 2 blank lines, found 1
+1       E731 do not assign a lambda expression, use a def
+3       W291 trailing whitespace
+5       W293 blank line contains whitespace
+
+filename: dictionary.py
+2       E111 indentation is not a multiple of four
+1       E113 unexpected indentation
+3       E231 missing whitespace after ':'
+4       E265 block comment should start with '# '
+1       E501 line too long (87 > 81 characters)
+
+filename: jstokens.py
+9       E111 indentation is not a multiple of four
+3       E128 continuation line under-indented for visual indent
+3       E201 whitespace after '['
+1       E231 missing whitespace after ','
+1       E261 at least two spaces before inline comment
+3       E262 inline comment should start with '# '
+4       E265 block comment should start with '# '
+11      E302 expected 2 blank lines, found 1
+4       E305 expected 2 blank lines after class or function definition, found 1
+2       E701 multiple statements on one line (colon)
+8       W291 trailing whitespace
+2       W293 blank line contains whitespace
+
+filename: centrality.py
+2       E128 continuation line under-indented for visual indent
+8       E231 missing whitespace after ','
+5       E261 at least two spaces before inline comment
+5       E265 block comment should start with '# '
+18      E302 expected 2 blank lines, found 1
+4       E305 expected 2 blank lines after class or function definition, found 1
+1       E402 module level import not at top of file
+2       E501 line too long (85 > 81 characters)
+6       E701 multiple statements on one line (colon)
+7       W291 trailing whitespace
+
+filename: bricklet_analog_in.py
+1       E302 expected 2 blank lines, found 1
+28      E501 line too long (94 > 81 characters)
+5       W291 trailing whitespace
+20      W293 blank line contains whitespace
+
+filename: Javascript interpreter.py
+4       E111 indentation is not a multiple of four
+1       E201 whitespace after '['
+5       E225 missing whitespace around operator
+1       E228 missing whitespace around modulo operator
+12      E231 missing whitespace after ','
+2       E251 unexpected spaces around keyword / parameter equals
+8       E261 at least two spaces before inline comment
+15      E265 block comment should start with '# '
+1       E271 multiple spaces after keyword
+10      E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+4       E501 line too long (86 > 81 characters)
+1       E701 multiple statements on one line (colon)
+3       E711 comparison to None should be 'if cond is None:'
+6       W291 trailing whitespace
+2       W293 blank line contains whitespace
+
+filename: 0010_auto__add_credentialsmodel.py
+2       E303 too many blank lines (2)
+76      E501 line too long (113 > 81 characters)
+1       W292 no newline at end of file
+
+filename: urls.py
+1       E203 whitespace before ','
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (94 > 81 characters)
+1       W391 blank line at end of file
+
+filename: fetchTemp.py
+4       E266 too many leading '#' for block comment
+2       E302 expected 2 blank lines, found 1
+26      W191 indentation contains tabs
+1       W291 trailing whitespace
+10      W293 blank line contains whitespace
+
+filename: re.py
+6       W291 trailing whitespace
+
+filename: double pig game.py
+1       E201 whitespace after '('
+4       E221 multiple spaces before operator
+11      E231 missing whitespace after ','
+2       E251 unexpected spaces around keyword / parameter equals
+2       E261 at least two spaces before inline comment
+1       E265 block comment should start with '# '
+2       E266 too many leading '#' for block comment
+1       E271 multiple spaces after keyword
+15      E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (3)
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       E306 expected 1 blank line before a nested definition, found 0
+9       E501 line too long (86 > 81 characters)
+1       E701 multiple statements on one line (colon)
+6       W291 trailing whitespace
+3       W293 blank line contains whitespace
+
+filename: Filter & map.py
+4       E203 whitespace before ':'
+9       E231 missing whitespace after ','
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (115 > 81 characters)
+16      W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: Grammar.py
+1       E116 unexpected indentation (comment)
+1       E122 continuation line missing indentation or outdented
+6       E128 continuation line under-indented for visual indent
+6       E231 missing whitespace after ','
+1       E251 unexpected spaces around keyword / parameter equals
+9       E265 block comment should start with '# '
+8       E302 expected 2 blank lines, found 1
+5       E305 expected 2 blank lines after class or function definition, found 1
+2       E306 expected 1 blank line before a nested definition, found 0
+6       E501 line too long (87 > 81 characters)
+2       E701 multiple statements on one line (colon)
+10      W291 trailing whitespace
+4       W293 blank line contains whitespace
+
+filename: points.py
+10      W191 indentation contains tabs
+1       W292 no newline at end of file
+
+filename: 0011_auto__add_field_picture_position.py
+2       E303 too many blank lines (2)
+75      E501 line too long (85 > 81 characters)
+1       W292 no newline at end of file
+
+filename: range.py
+3       E231 missing whitespace after ','
+
+filename: prompt.py
+1       W291 trailing whitespace
+
+filename: REinterp.py
+2       E128 continuation line under-indented for visual indent
+16      E201 whitespace after '{'
+18      E202 whitespace before ']'
+20      E203 whitespace before ':'
+2       E211 whitespace before '('
+1       E225 missing whitespace around operator
+38      E231 missing whitespace after ','
+2       E261 at least two spaces before inline comment
+1       E262 inline comment should start with '# '
+5       E265 block comment should start with '# '
+19      E302 expected 2 blank lines, found 1
+3       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (93 > 81 characters)
+1       E722 do not use bare except'
+22      W291 trailing whitespace
+
+filename: enum.py
+3       E261 at least two spaces before inline comment
+1       E302 expected 2 blank lines, found 0
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       W291 trailing whitespace
+1       W292 no newline at end of file
+2       W293 blank line contains whitespace
+
+filename: single_player_with_comp.py
+1       E302 expected 2 blank lines, found 1
+1       E401 multiple imports on one line
+5       E501 line too long (119 > 81 characters)
+78      W191 indentation contains tabs
+2       W291 trailing whitespace
+1       W292 no newline at end of file
+2       W293 blank line contains whitespace
+
+filename: Three Body Problem.py
+1       E231 missing whitespace after ','
+8       E261 at least two spaces before inline comment
+1       E265 block comment should start with '# '
+2       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (2)
+2       E305 expected 2 blank lines after class or function definition, found 1
+5       E501 line too long (83 > 81 characters)
+2       W291 trailing whitespace
+7       W293 blank line contains whitespace
+
+filename: median_15_seconds.py
+8       E251 unexpected spaces around keyword / parameter equals
+2       E302 expected 2 blank lines, found 1
+
+filename: generator_yield.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (83 > 81 characters)
+
+filename: build_exe.py
+1       E201 whitespace after '['
+1       E202 whitespace before ']'
+6       E251 unexpected spaces around keyword / parameter equals
+1       E401 multiple imports on one line
+1       E501 line too long (117 > 81 characters)
+1       W291 trailing whitespace
+
+filename: ui_yay.py
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E402 module level import not at top of file
+3       E501 line too long (129 > 81 characters)
+1       E731 do not assign a lambda expression, use a def
+
+filename: bricklet_humidity.py
+1       E302 expected 2 blank lines, found 1
+28      E501 line too long (96 > 81 characters)
+6       W291 trailing whitespace
+20      W293 blank line contains whitespace
+
+filename: classes.py
+1       E203 whitespace before ':'
+2       E265 block comment should start with '# '
+1       E266 too many leading '#' for block comment
+2       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: optimum policy 2D.py
+4       E201 whitespace after '['
+1       E202 whitespace before ']'
+1       E225 missing whitespace around operator
+2       E231 missing whitespace after ','
+9       E261 at least two spaces before inline comment
+1       E266 too many leading '#' for block comment
+7       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (84 > 81 characters)
+2       E731 do not assign a lambda expression, use a def
+1       W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: network.py
+6       E111 indentation is not a multiple of four
+2       E128 continuation line under-indented for visual indent
+1       E225 missing whitespace around operator
+1       E261 at least two spaces before inline comment
+1       E262 inline comment should start with '# '
+3       E265 block comment should start with '# '
+1       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (2)
+9       E501 line too long (96 > 81 characters)
+2       W291 trailing whitespace
+8       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: bricklet_current12.py
+1       E302 expected 2 blank lines, found 1
+29      E501 line too long (94 > 81 characters)
+6       W291 trailing whitespace
+23      W293 blank line contains whitespace
+
+filename: long and simple path.py
+1       E129 visually indented line with same indent as next logical line
+29      E231 missing whitespace after ','
+6       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+4       E701 multiple statements on one line (colon)
+2       E741 ambiguous variable name 'l'
+2       W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: fibo.py
+1       W292 no newline at end of file
+
+filename: dijkstra with heap.py
+3       E111 indentation is not a multiple of four
+43      E231 missing whitespace after ','
+2       E261 at least two spaces before inline comment
+2       E262 inline comment should start with '# '
+12      E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       E402 module level import not at top of file
+1       E501 line too long (83 > 81 characters)
+10      W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: upack_arguments.py
+1       E225 missing whitespace around operator
+2       E231 missing whitespace after ','
+1       E265 block comment should start with '# '
+1       E266 too many leading '#' for block comment
+
+filename: eval.py
+1       E128 continuation line under-indented for visual indent
+1       E231 missing whitespace after ','
+6       E261 at least two spaces before inline comment
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E701 multiple statements on one line (colon)
+1       W293 blank line contains whitespace
+
+filename: PipelineSolver.py
+8       E225 missing whitespace around operator
+4       E228 missing whitespace around modulo operator
+10      E231 missing whitespace after ':'
+10      E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+6       E501 line too long (115 > 81 characters)
+1       E711 comparison to None should be 'if cond is None:'
+
+filename: test_validation.py
+1       W293 blank line contains whitespace
+
+filename: anagrams.py
+2       E251 unexpected spaces around keyword / parameter equals
+2       E265 block comment should start with '# '
+7       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (89 > 81 characters)
+2       E701 multiple statements on one line (colon)
+1       E711 comparison to None should be 'if cond is None:'
+5       W291 trailing whitespace
+
+filename: SolverImplType.py
+1       E302 expected 2 blank lines, found 1
+
+filename: 23.py
+5       E113 unexpected indentation
+
+filename: Hydraulic Braking.py
+2       E225 missing whitespace around operator
+10      E251 unexpected spaces around keyword / parameter equals
+15      E261 at least two spaces before inline comment
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (83 > 81 characters)
+3       W293 blank line contains whitespace
+
+filename: water pour problem.py
+4       E225 missing whitespace around operator
+2       E231 missing whitespace after ','
+1       E261 at least two spaces before inline comment
+2       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       E402 module level import not at top of file
+5       E501 line too long (106 > 81 characters)
+1       E701 multiple statements on one line (colon)
+1       W293 blank line contains whitespace
+
+filename: triangle.py
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: PID controller.py
+2       E221 multiple spaces before operator
+4       E231 missing whitespace after ','
+10      E251 unexpected spaces around keyword / parameter equals
+1       E261 at least two spaces before inline comment
+3       E265 block comment should start with '# '
+1       E266 too many leading '#' for block comment
+2       E302 expected 2 blank lines, found 4
+6       E303 too many blank lines (2)
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (82 > 81 characters)
+7       W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: science60.py
+
+filename: var.py
+
+filename: crop_image.py
+3       E231 missing whitespace after ','
+
+filename: slice2.py
+
+filename: AsynchronousSolver.py
+2       E225 missing whitespace around operator
+6       E228 missing whitespace around modulo operator
+6       E231 missing whitespace after ':'
+8       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+8       E501 line too long (111 > 81 characters)
+10      E701 multiple statements on one line (colon)
+6       E722 do not use bare except'
+1       W391 blank line at end of file
+
+filename: subscriber.py
+1       E128 continuation line under-indented for visual indent
+4       E251 unexpected spaces around keyword / parameter equals
+1       E302 expected 2 blank lines, found 1
+1       W391 blank line at end of file
+
+filename: iModelNotifications.py
+9       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+1       W391 blank line at end of file
+
+filename: PyFileO.py
+5       E225 missing whitespace around operator
+27      E231 missing whitespace after ','
+8       E251 unexpected spaces around keyword / parameter equals
+1       E302 expected 2 blank lines, found 1
+2       E303 too many blank lines (3)
+4       E501 line too long (89 > 81 characters)
+4       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: CS262U1.py
+3       E201 whitespace after '{'
+3       E202 whitespace before '}'
+10      E203 whitespace before ':'
+1       E225 missing whitespace around operator
+2       E231 missing whitespace after ','
+5       E302 expected 2 blank lines, found 1
+3       E305 expected 2 blank lines after class or function definition, found 1
+5       E501 line too long (98 > 81 characters)
+1       E711 comparison to None should be 'if cond is None:'
+6       E712 comparison to True should be 'if cond is True:' or 'if cond:'
+12      W291 trailing whitespace
+3       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: Ywing.py
+6       E225 missing whitespace around operator
+1       E228 missing whitespace around modulo operator
+2       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+8       E501 line too long (110 > 81 characters)
+
+filename: error.py
+2       E101 indentation contains mixed spaces and tabs
+5       W191 indentation contains tabs
+1       W292 no newline at end of file
+1       W293 blank line contains whitespace
+
+filename: sysConfig.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+12      E501 line too long (104 > 81 characters)
+
+filename: bayesClassifier.py
+37      E111 indentation is not a multiple of four
+2       E112 expected an indented block
+2       E115 expected an indented block (comment)
+12      E211 whitespace before '('
+6       E221 multiple spaces before operator
+2       E302 expected 2 blank lines, found 1
+2       E303 too many blank lines (3)
+7       W293 blank line contains whitespace
+
+filename: md_opinions_proxy.py
+10      E251 unexpected spaces around keyword / parameter equals
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: testdb.py
+1       W292 no newline at end of file
+
+filename: orm.py
+1       E201 whitespace after '('
+1       E305 expected 2 blank lines after class or function definition, found 1
+11      E501 line too long (102 > 81 characters)
+15      E713 test for membership should be 'not in'
+1       W291 trailing whitespace
+1       W391 blank line at end of file
+
+filename: insert1.py
+1       E501 line too long (97 > 81 characters)
+1       W291 trailing whitespace
+1       W292 no newline at end of file
+1       W293 blank line contains whitespace
+
+filename: fileOp.py
+4       E501 line too long (129 > 81 characters)
+
+filename: sanitizer.py
+8       E251 unexpected spaces around keyword / parameter equals
+2       E302 expected 2 blank lines, found 1
+1       E501 line too long (95 > 81 characters)
+1       W292 no newline at end of file
+
+filename: link.py
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: fuzzer.py
+1       E225 missing whitespace around operator
+4       E265 block comment should start with '# '
+5       E402 module level import not at top of file
+1       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: channels.py
+2       E231 missing whitespace after ','
+
+filename: db2.py
+1       E203 whitespace before ','
+1       E231 missing whitespace after ','
+1       E305 expected 2 blank lines after class or function definition, found 1
+6       E501 line too long (94 > 81 characters)
+
+filename: compute value.py
+3       E201 whitespace after '['
+3       E202 whitespace before ']'
+5       E225 missing whitespace around operator
+6       E261 at least two spaces before inline comment
+1       E262 inline comment should start with '# '
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (105 > 81 characters)
+
+filename: bricklet_industrial_quad_relay.py
+1       E302 expected 2 blank lines, found 1
+16      E501 line too long (101 > 81 characters)
+3       W291 trailing whitespace
+12      W293 blank line contains whitespace
+
+filename: tag.py
+1       E101 indentation contains mixed spaces and tabs
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       W191 indentation contains tabs
+
+filename: emit_log_direct.py
+1       W292 no newline at end of file
+
+filename: cut and choose verify.py
+2       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 0
+1       E501 line too long (97 > 81 characters)
+2       W291 trailing whitespace
+
+filename: commonMechine.py
+1       E302 expected 2 blank lines, found 1
+
+filename: connection strength.py
+3       E111 indentation is not a multiple of four
+4       E128 continuation line under-indented for visual indent
+1       E231 missing whitespace after ','
+2       E265 block comment should start with '# '
+5       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       E402 module level import not at top of file
+1       E701 multiple statements on one line (colon)
+2       E722 do not use bare except'
+3       E741 ambiguous variable name 'l'
+
+filename: common.py
+3       E501 line too long (91 > 81 characters)
+1       W391 blank line at end of file
+
+filename: bricklet_gps.py
+1       E302 expected 2 blank lines, found 1
+27      E501 line too long (112 > 81 characters)
+2       W291 trailing whitespace
+19      W293 blank line contains whitespace
+
+filename: greedy vertex cover.py
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (83 > 81 characters)
+3       W293 blank line contains whitespace
+
+filename: DL_files.py
+1       E211 whitespace before '('
+1       E225 missing whitespace around operator
+4       E265 block comment should start with '# '
+1       E302 expected 2 blank lines, found 1
+1       E501 line too long (113 > 81 characters)
+
+filename: first.py
+
+filename: cell.py
+10      E225 missing whitespace around operator
+1       E228 missing whitespace around modulo operator
+3       E231 missing whitespace after ':'
+20      E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (85 > 81 characters)
+2       E712 comparison to True should be 'if cond is True:' or 'if cond:'
+
+filename: cryp puzzle.py
+1       E128 continuation line under-indented for visual indent
+16      E231 missing whitespace after ','
+1       E261 at least two spaces before inline comment
+3       E265 block comment should start with '# '
+8       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E401 multiple imports on one line
+2       E501 line too long (105 > 81 characters)
+1       E701 multiple statements on one line (colon)
+1       E711 comparison to None should be 'if cond is None:'
+5       W291 trailing whitespace
+2       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: switcher.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: tasks.py
+3       E128 continuation line under-indented for visual indent
+7       E302 expected 2 blank lines, found 1
+1       E401 multiple imports on one line
+7       E501 line too long (127 > 81 characters)
+5       W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: feel the love.py
+16      E231 missing whitespace after ':'
+6       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (2933 > 81 characters)
+1       E711 comparison to None should be 'if cond is None:'
+
+filename: htmltokens.py
+3       E265 block comment should start with '# '
+8       E266 too many leading '#' for block comment
+16      E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       W291 trailing whitespace
+2       W293 blank line contains whitespace
+
+filename: number5.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (109 > 81 characters)
+
+filename: snake.py
+3       E101 indentation contains mixed spaces and tabs
+3       E127 continuation line over-indented for visual indent
+1       E225 missing whitespace around operator
+2       E265 block comment should start with '# '
+1       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (2)
+1       E501 line too long (83 > 81 characters)
+1       E722 do not use bare except'
+98      W191 indentation contains tabs
+1       W293 blank line contains whitespace
+
+filename: FixCellSingleVertexPossibles.py
+1       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+
+filename: Solved.py
+1       E302 expected 2 blank lines, found 1
+
+filename: display.py
+1       E115 expected an indented block (comment)
+16      E128 continuation line under-indented for visual indent
+2       E221 multiple spaces before operator
+11      E225 missing whitespace around operator
+12      E228 missing whitespace around modulo operator
+4       E231 missing whitespace after ':'
+44      E301 expected 1 blank line, found 0
+5       E302 expected 2 blank lines, found 1
+19      E501 line too long (103 > 81 characters)
+6       E703 statement ends with a semicolon
+3       E711 comparison to None should be 'if cond is not None:'
+3       E712 comparison to True should be 'if cond is True:' or 'if cond:'
+6       W291 trailing whitespace
+
+filename: practice.py
+3       E112 expected an indented block
+45      E115 expected an indented block (comment)
+3       E203 whitespace before ':'
+3       E225 missing whitespace around operator
+2       E228 missing whitespace around modulo operator
+23      E231 missing whitespace after ','
+3       E261 at least two spaces before inline comment
+10      E265 block comment should start with '# '
+7       E302 expected 2 blank lines, found 0
+2       E303 too many blank lines (3)
+3       E305 expected 2 blank lines after class or function definition, found 1
+7       E402 module level import not at top of file
+4       E501 line too long (132 > 81 characters)
+58      W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: functions.py
+1       E225 missing whitespace around operator
+2       E302 expected 2 blank lines, found 1
+
+filename: Aborted.py
+1       E302 expected 2 blank lines, found 1
+
+filename: Henus & Euler.py
+8       E251 unexpected spaces around keyword / parameter equals
+8       E261 at least two spaces before inline comment
+1       E262 inline comment should start with '# '
+4       E265 block comment should start with '# '
+3       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (97 > 81 characters)
+1       W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: continue.py
+4       E111 indentation is not a multiple of four
+1       E113 unexpected indentation
+1       E114 indentation is not a multiple of four (comment)
+1       E211 whitespace before '('
+5       E231 missing whitespace after ','
+1       E265 block comment should start with '# '
+
+filename: decorator.py
+2       E225 missing whitespace around operator
+6       E251 unexpected spaces around keyword / parameter equals
+1       E265 block comment should start with '# '
+1       E271 multiple spaces after keyword
+5       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+2       E711 comparison to None should be 'if cond is not None:'
+21      W191 indentation contains tabs
+1       W292 no newline at end of file
+
+filename: basic_configuration.py
+1       E302 expected 2 blank lines, found 1
+2       E501 line too long (112 > 81 characters)
+1       W292 no newline at end of file
+
+filename: question.py
+1       E303 too many blank lines (2)
+1       W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: importPackage.py
+4       E703 statement ends with a semicolon
+
+filename: city.py
+1       W292 no newline at end of file
+
+filename: HigherOrderFunction.py
+1       E302 expected 2 blank lines, found 0
+5       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (93 > 81 characters)
+1       E703 statement ends with a semicolon
+1       E731 do not assign a lambda expression, use a def
+
+filename: saveloc.py
+4       E261 at least two spaces before inline comment
+1       E303 too many blank lines (3)
+1       W291 trailing whitespace
+1       W292 no newline at end of file
+
+filename: SCC.py
+1       E128 continuation line under-indented for visual indent
+1       E225 missing whitespace around operator
+48      E231 missing whitespace after ','
+6       E251 unexpected spaces around keyword / parameter equals
+1       E265 block comment should start with '# '
+7       E266 too many leading '#' for block comment
+5       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+2       E306 expected 1 blank line before a nested definition, found 0
+1       E501 line too long (84 > 81 characters)
+1       E731 do not assign a lambda expression, use a def
+3       W291 trailing whitespace
+4       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: emit_log_topic.py
+1       W292 no newline at end of file
+
+filename: homework2.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (122 > 81 characters)
+
+filename: set.py
+2       E265 block comment should start with '# '
+
+filename: notifier.py
+13      E111 indentation is not a multiple of four
+3       E231 missing whitespace after ','
+30      E251 unexpected spaces around keyword / parameter equals
+1       E302 expected 2 blank lines, found 1
+3       E501 line too long (93 > 81 characters)
+1       W293 blank line contains whitespace
+
+filename: hello_world.py
+
+filename: emit_log.py
+1       E265 block comment should start with '# '
+1       E401 multiple imports on one line
+1       W292 no newline at end of file
+
+filename: models.py
+1       E302 expected 2 blank lines, found 1
+1       W292 no newline at end of file
+
+filename: direction.py
+5       W191 indentation contains tabs
+1       W292 no newline at end of file
+
+filename: longest substring.py
+1       E201 whitespace after '{'
+11      E231 missing whitespace after ','
+1       E261 at least two spaces before inline comment
+3       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E722 do not use bare except'
+3       W291 trailing whitespace
+1       W391 blank line at end of file
+
+filename: auto deduction.py
+11      E221 multiple spaces before operator
+7       E265 block comment should start with '# '
+7       E302 expected 2 blank lines, found 1
+3       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (86 > 81 characters)
+2       W291 trailing whitespace
+12      W293 blank line contains whitespace
+1       W601 .has_key() is deprecated, use 'in'
+
+filename: Poker.py
+1       E202 whitespace before ')'
+1       E203 whitespace before ','
+2       E211 whitespace before '('
+1       E225 missing whitespace around operator
+21      E231 missing whitespace after ','
+1       E251 unexpected spaces around keyword / parameter equals
+10      E302 expected 2 blank lines, found 1
+4       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (131 > 81 characters)
+1       E701 multiple statements on one line (colon)
+3       E711 comparison to None should be 'if cond is None:'
+4       E712 comparison to True should be 'if cond is True:' or 'if cond:'
+2       W293 blank line contains whitespace
+
+filename: upload_tags.py
+1       E302 expected 2 blank lines, found 1
+6       E501 line too long (174 > 81 characters)
+1       W292 no newline at end of file
+
+filename: 0003_auto_20150716_2037.py
+
+filename: classTwo.py
+1       E305 expected 2 blank lines after class or function definition, found 0
+
+filename: 24.py
+5       E113 unexpected indentation
+
+filename: cryp-W6.py
+2       E101 indentation contains mixed spaces and tabs
+2       E201 whitespace after '['
+2       E222 multiple spaces after operator
+15      E225 missing whitespace around operator
+2       E227 missing whitespace around bitwise or shift operator
+1       E228 missing whitespace around modulo operator
+18      E231 missing whitespace after ','
+4       E251 unexpected spaces around keyword / parameter equals
+2       E265 block comment should start with '# '
+22      E302 expected 2 blank lines, found 1
+5       E305 expected 2 blank lines after class or function definition, found 1
+8       E501 line too long (88 > 81 characters)
+12      E702 multiple statements on one line (semicolon)
+1       E703 statement ends with a semicolon
+2       E711 comparison to None should be 'if cond is None:'
+2       E722 do not use bare except'
+41      W191 indentation contains tabs
+4       W291 trailing whitespace
+4       W293 blank line contains whitespace
+
+filename: Solver.py
+16      E128 continuation line under-indented for visual indent
+14      E225 missing whitespace around operator
+11      E228 missing whitespace around modulo operator
+12      E231 missing whitespace after ':'
+1       E265 block comment should start with '# '
+17      E301 expected 1 blank line, found 0
+3       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E306 expected 1 blank line before a nested definition, found 0
+5       E501 line too long (92 > 81 characters)
+3       E711 comparison to None should be 'if cond is not None:'
+1       E712 comparison to True should be 'if cond is True:' or 'if cond:'
+1       E722 do not use bare except'
+6       W291 trailing whitespace
+
+filename: logger.py
+1       E731 do not assign a lambda expression, use a def
+
+filename: sync_ftable.py
+2       E128 continuation line under-indented for visual indent
+1       E265 block comment should start with '# '
+4       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E401 multiple imports on one line
+6       E402 module level import not at top of file
+4       E501 line too long (126 > 81 characters)
+4       W291 trailing whitespace
+1       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: diff.py
+1       W292 no newline at end of file
+
+filename: Malaria.py
+4       E251 unexpected spaces around keyword / parameter equals
+8       E261 at least two spaces before inline comment
+1       E265 block comment should start with '# '
+2       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+4       E501 line too long (264 > 81 characters)
+2       W293 blank line contains whitespace
+
+filename: class_v_instance_variables.py
+1       E112 expected an indented block
+1       E266 too many leading '#' for block comment
+
+filename: Final car.py
+1       E127 continuation line over-indented for visual indent
+1       E128 continuation line under-indented for visual indent
+3       E201 whitespace after '['
+30      E221 multiple spaces before operator
+1       E222 multiple spaces after operator
+1       E225 missing whitespace around operator
+24      E251 unexpected spaces around keyword / parameter equals
+7       E261 at least two spaces before inline comment
+5       E265 block comment should start with '# '
+3       E302 expected 2 blank lines, found 7
+22      E303 too many blank lines (3)
+1       E305 expected 2 blank lines after class or function definition, found 4
+5       E501 line too long (85 > 81 characters)
+1       E502 the backslash is redundant between brackets
+1       E703 statement ends with a semicolon
+41      W291 trailing whitespace
+17      W293 blank line contains whitespace
+2       W602 deprecated form of raising exception
+
+filename: yob1995.py
+2       E251 unexpected spaces around keyword / parameter equals
+
+filename: 0001_initial.py
+1       E501 line too long (114 > 81 characters)
+
+filename: MyArray.py
+1       E116 unexpected indentation (comment)
+7       E225 missing whitespace around operator
+7       E231 missing whitespace after ','
+1       E261 at least two spaces before inline comment
+1       E271 multiple spaces after keyword
+1       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (2)
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E703 statement ends with a semicolon
+43      W191 indentation contains tabs
+1       W292 no newline at end of file
+1       W293 blank line contains whitespace
+
+filename: Generator.py
+1       E221 multiple spaces before operator
+1       E225 missing whitespace around operator
+1       E227 missing whitespace around bitwise or shift operator
+1       E261 at least two spaces before inline comment
+1       E262 inline comment should start with '# '
+6       E272 multiple spaces before keyword
+7       E302 expected 2 blank lines, found 0
+1       E303 too many blank lines (3)
+2       E305 expected 2 blank lines after class or function definition, found 0
+1       W291 trailing whitespace
+4       W293 blank line contains whitespace
+
+filename: unit_tests.py
+2       E128 continuation line under-indented for visual indent
+4       E203 whitespace before ':'
+11      E225 missing whitespace around operator
+211     E231 missing whitespace after ','
+3       E261 at least two spaces before inline comment
+4       E262 inline comment should start with '# '
+10      E265 block comment should start with '# '
+8       E302 expected 2 blank lines, found 0
+6       E303 too many blank lines (3)
+14      E501 line too long (92 > 81 characters)
+1       W292 no newline at end of file
+
+filename: cryp-RSA.py
+2       E101 indentation contains mixed spaces and tabs
+2       E201 whitespace after '['
+4       E222 multiple spaces after operator
+18      E225 missing whitespace around operator
+3       E227 missing whitespace around bitwise or shift operator
+1       E228 missing whitespace around modulo operator
+18      E231 missing whitespace after ','
+12      E251 unexpected spaces around keyword / parameter equals
+16      E261 at least two spaces before inline comment
+16      E262 inline comment should start with '# '
+48      E265 block comment should start with '# '
+13      E266 too many leading '#' for block comment
+34      E302 expected 2 blank lines, found 1
+7       E305 expected 2 blank lines after class or function definition, found 1
+47      E501 line too long (314 > 81 characters)
+12      E702 multiple statements on one line (semicolon)
+1       E703 statement ends with a semicolon
+3       E711 comparison to None should be 'if cond is None:'
+2       E722 do not use bare except'
+1       E741 ambiguous variable name 'l'
+41      W191 indentation contains tabs
+4       W291 trailing whitespace
+7       W293 blank line contains whitespace
+
+filename: layer.py
+2       E251 unexpected spaces around keyword / parameter equals
+1       E271 multiple spaces after keyword
+1       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (2)
+1       W293 blank line contains whitespace
+
+filename: squre_shortest_path.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E741 ambiguous variable name 'l'
+
+filename: Hello Autokey.py
+1       W292 no newline at end of file
+
+filename: solve_3SAT.py
+2       E127 continuation line over-indented for visual indent
+5       E225 missing whitespace around operator
+3       E231 missing whitespace after ','
+2       E251 unexpected spaces around keyword / parameter equals
+2       E265 block comment should start with '# '
+4       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (82 > 81 characters)
+5       E711 comparison to None should be 'if cond is None:'
+4       W293 blank line contains whitespace
+
+filename: cutchoose.py
+2       E231 missing whitespace after ','
+1       E261 at least two spaces before inline comment
+11      E302 expected 2 blank lines, found 1
+4       E305 expected 2 blank lines after class or function definition, found 1
+3       E501 line too long (97 > 81 characters)
+14      W293 blank line contains whitespace
+
+filename: QuickSort.py
+16      E225 missing whitespace around operator
+17      E231 missing whitespace after ','
+6       E265 block comment should start with '# '
+4       E302 expected 2 blank lines, found 0
+1       W293 blank line contains whitespace
+
+filename: main-Unit4.py
+1       E203 whitespace before ':'
+1       E221 multiple spaces before operator
+1       E225 missing whitespace around operator
+3       E231 missing whitespace after ':'
+22      E251 unexpected spaces around keyword / parameter equals
+7       E301 expected 1 blank line, found 0
+20      E302 expected 2 blank lines, found 0
+4       E305 expected 2 blank lines after class or function definition, found 1
+4       E501 line too long (84 > 81 characters)
+1       W293 blank line contains whitespace
+
+filename: AbortError.py
+1       E302 expected 2 blank lines, found 1
+
+filename: Word Games.py
+1       E128 continuation line under-indented for visual indent
+1       E221 multiple spaces before operator
+11      E231 missing whitespace after ','
+16      E251 unexpected spaces around keyword / parameter equals
+4       E261 at least two spaces before inline comment
+2       E262 inline comment should start with '# '
+7       E265 block comment should start with '# '
+11      E266 too many leading '#' for block comment
+35      E302 expected 2 blank lines, found 1
+8       E305 expected 2 blank lines after class or function definition, found 1
+4       E501 line too long (84 > 81 characters)
+15      E701 multiple statements on one line (colon)
+1       E722 do not use bare except'
+2       E741 ambiguous variable name 'I'
+8       W291 trailing whitespace
+2       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: udacityplots.py
+2       E225 missing whitespace around operator
+1       E302 expected 2 blank lines, found 1
+1       E401 multiple imports on one line
+1       E721 do not compare types, use 'isinstance()'
+2       W291 trailing whitespace
+1       W292 no newline at end of file
+1       W293 blank line contains whitespace
+
+filename: Activator Inhibitor.py
+2       E228 missing whitespace around modulo operator
+12      E251 unexpected spaces around keyword / parameter equals
+6       E261 at least two spaces before inline comment
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+7       E501 line too long (117 > 81 characters)
+1       W291 trailing whitespace
+10      W293 blank line contains whitespace
+
+filename: customclass.py
+1       W292 no newline at end of file
+
+filename: Fsm Optimization.py
+4       E201 whitespace after '{'
+3       E202 whitespace before ']'
+19      E203 whitespace before ':'
+17      E231 missing whitespace after ','
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E711 comparison to None should be 'if cond is not None:'
+12      W291 trailing whitespace
+1       W391 blank line at end of file
+
+filename: data.py
+2       E225 missing whitespace around operator
+2       E231 missing whitespace after ':'
+9       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E711 comparison to None should be 'if cond is not None:'
+
+filename: lambda.py
+2       E265 block comment should start with '# '
+
+filename: 11.py
+
+filename: More Statistics2.py
+1       E127 continuation line over-indented for visual indent
+8       E128 continuation line under-indented for visual indent
+1       E203 whitespace before ':'
+4       E221 multiple spaces before operator
+1       E225 missing whitespace around operator
+3       E261 at least two spaces before inline comment
+1       E266 too many leading '#' for block comment
+10      E302 expected 2 blank lines, found 0
+2       E305 expected 2 blank lines after class or function definition, found 1
+3       E501 line too long (83 > 81 characters)
+2       E722 do not use bare except'
+16      W291 trailing whitespace
+13      W293 blank line contains whitespace
+6       W601 .has_key() is deprecated, use 'in'
+
+filename: bricklet_lcd_16x2.py
+1       E302 expected 2 blank lines, found 1
+9       E501 line too long (84 > 81 characters)
+2       W291 trailing whitespace
+3       W293 blank line contains whitespace
+
+filename: main-Unit2.py
+2       E225 missing whitespace around operator
+1       E228 missing whitespace around modulo operator
+12      E231 missing whitespace after ','
+4       E251 unexpected spaces around keyword / parameter equals
+3       E265 block comment should start with '# '
+6       E266 too many leading '#' for block comment
+3       E301 expected 1 blank line, found 0
+14      E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+3       E501 line too long (95 > 81 characters)
+1       W291 trailing whitespace
+7       W293 blank line contains whitespace
+
+filename: 26.py
+5       E113 unexpected indentation
+
+filename: Javascript parse tree (part of).py
+1       E231 missing whitespace after ','
+1       E265 block comment should start with '# '
+5       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (3)
+11      W291 trailing whitespace
+3       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: nosplit.py
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       W391 blank line at end of file
+
+filename: classOne.py
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: robot motion search.py
+3       E128 continuation line under-indented for visual indent
+4       E201 whitespace after '['
+4       E202 whitespace before ']'
+5       E261 at least two spaces before inline comment
+3       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (96 > 81 characters)
+1       E731 do not assign a lambda expression, use a def
+1       W293 blank line contains whitespace
+
+filename: markdown2.py
+16      E111 indentation is not a multiple of four
+2       E114 indentation is not a multiple of four (comment)
+23      E128 continuation line under-indented for visual indent
+1       E129 visually indented line with same indent as next logical line
+2       E131 continuation line unaligned for hanging indent
+1       E201 whitespace after '('
+1       E202 whitespace before ')'
+1       E221 multiple spaces before operator
+1       E231 missing whitespace after ','
+15      E261 at least two spaces before inline comment
+10      E265 block comment should start with '# '
+2       E266 too many leading '#' for block comment
+17      E301 expected 1 blank line, found 0
+13      E302 expected 2 blank lines, found 0
+7       E303 too many blank lines (3)
+4       E305 expected 2 blank lines after class or function definition, found 1
+1       E306 expected 1 blank line before a nested definition, found 0
+8       E402 module level import not at top of file
+27      E501 line too long (97 > 81 characters)
+2       E502 the backslash is redundant between brackets
+9       E701 multiple statements on one line (colon)
+2       E703 statement ends with a semicolon
+1       E713 test for membership should be 'not in'
+
+filename: U2 challenge.py
+4       E231 missing whitespace after ','
+3       E265 block comment should start with '# '
+9       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (3)
+2       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (1498 > 81 characters)
+2       W293 blank line contains whitespace
+
+filename: bricklet_industrial_digital_in_4.py
+14      E501 line too long (98 > 81 characters)
+3       W291 trailing whitespace
+12      W293 blank line contains whitespace
+
+filename: Create Tour.py
+2       E251 unexpected spaces around keyword / parameter equals
+1       E265 block comment should start with '# '
+3       E266 too many leading '#' for block comment
+10      E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+5       E501 line too long (100 > 81 characters)
+1       E711 comparison to None should be 'if cond is None:'
+1       E712 comparison to False should be 'if cond is not False:' or 'if cond:'
+1       W293 blank line contains whitespace
+
+filename: clustering1.py
+4       E265 block comment should start with '# '
+1       W293 blank line contains whitespace
+
+filename: mechines.py
+4       E302 expected 2 blank lines, found 1
+1       W391 blank line at end of file
+
+filename: FixRowVertexPossibles.py
+1       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+
+filename: main.py
+1       E265 block comment should start with '# '
+1       W391 blank line at end of file
+
+filename: localization.py
+3       E225 missing whitespace around operator
+1       E231 missing whitespace after ','
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 0
+1       W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: network_test.py
+2       W191 indentation contains tabs
+1       W292 no newline at end of file
+
+filename: controller.py
+1       W292 no newline at end of file
+
+filename: fixVertexPossibles.py
+3       E225 missing whitespace around operator
+1       E302 expected 2 blank lines, found 1
+1       E306 expected 1 blank line before a nested definition, found 0
+1       E501 line too long (83 > 81 characters)
+
+filename: FixColVertexPossibles.py
+1       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+
+filename: scope.py
+1       E265 block comment should start with '# '
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: slice_test.py
+1       E231 missing whitespace after ','
+1       E501 line too long (85 > 81 characters)
+1       W391 blank line at end of file
+
+filename: logtest.py
+1       E402 module level import not at top of file
+1       W292 no newline at end of file
+
+filename: 0013_auto__del_field_picture_order.py
+2       E303 too many blank lines (2)
+74      E501 line too long (85 > 81 characters)
+1       W292 no newline at end of file
+
+filename: arguments.py
+1       E112 expected an indented block
+1       E115 expected an indented block (comment)
+1       E265 block comment should start with '# '
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 0
+1       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: init.py
+1       E113 unexpected indentation
+2       E114 indentation is not a multiple of four (comment)
+2       E116 unexpected indentation (comment)
+1       E265 block comment should start with '# '
+1       E266 too many leading '#' for block comment
+1       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (2)
+
+filename: demo1.py
+1       W292 no newline at end of file
+
+filename: setup_regions.py
+2       E402 module level import not at top of file
+1       W291 trailing whitespace
+1       W292 no newline at end of file
+
+filename: point.py
+24      W191 indentation contains tabs
+1       W292 no newline at end of file
+
+filename: server_configuration.py
+1       E128 continuation line under-indented for visual indent
+3       E265 block comment should start with '# '
+2       E302 expected 2 blank lines, found 1
+1       E501 line too long (102 > 81 characters)
+1       W601 .has_key() is deprecated, use 'in'
+
+filename: gcd2.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: graph_tools.py
+3       E127 continuation line over-indented for visual indent
+2       E128 continuation line under-indented for visual indent
+1       E203 whitespace before ':'
+3       E231 missing whitespace after ','
+1       E265 block comment should start with '# '
+1       E303 too many blank lines (2)
+5       E501 line too long (109 > 81 characters)
+1       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: board.py
+1       E231 missing whitespace after ','
+4       E251 unexpected spaces around keyword / parameter equals
+1       E271 multiple spaces after keyword
+37      W191 indentation contains tabs
+
+filename: lang_alert.py
+1       E128 continuation line under-indented for visual indent
+1       E201 whitespace after '{'
+1       E202 whitespace before '}'
+4       E203 whitespace before ':'
+1       E265 block comment should start with '# '
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+2       E401 multiple imports on one line
+1       E501 line too long (82 > 81 characters)
+1       E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+2       E722 do not use bare except'
+3       W291 trailing whitespace
+9       W293 blank line contains whitespace
+1       W391 blank line at end of file
+1       W601 .has_key() is deprecated, use 'in'
+
+filename: ennui.py
+2       E501 line too long (85 > 81 characters)
+
+filename: 0015_auto__chg_field_picture_position.py
+77      E501 line too long (118 > 81 characters)
+1       W292 no newline at end of file
+
+filename: min_max_sort.py
+6       E231 missing whitespace after ':'
+
+filename: inheritance.py
+4       E265 block comment should start with '# '
+1       E302 expected 2 blank lines, found 1
+
+filename: xor.py
+6       E114 indentation is not a multiple of four (comment)
+6       E202 whitespace before ')'
+13      E231 missing whitespace after ','
+1       E302 expected 2 blank lines, found 1
+2       E303 too many blank lines (2)
+10      E501 line too long (95 > 81 characters)
+3       E703 statement ends with a semicolon
+1       E731 do not assign a lambda expression, use a def
+5       W291 trailing whitespace
+21      W293 blank line contains whitespace
+
+filename: custom_method.py
+2       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (3)
+1       W292 no newline at end of file
+
+filename: cryp_RSA.py
+2       E101 indentation contains mixed spaces and tabs
+2       E201 whitespace after '['
+3       E222 multiple spaces after operator
+18      E225 missing whitespace around operator
+3       E227 missing whitespace around bitwise or shift operator
+1       E228 missing whitespace around modulo operator
+18      E231 missing whitespace after ','
+12      E251 unexpected spaces around keyword / parameter equals
+16      E261 at least two spaces before inline comment
+16      E262 inline comment should start with '# '
+56      E265 block comment should start with '# '
+13      E266 too many leading '#' for block comment
+35      E302 expected 2 blank lines, found 1
+7       E305 expected 2 blank lines after class or function definition, found 1
+47      E501 line too long (314 > 81 characters)
+12      E702 multiple statements on one line (semicolon)
+1       E703 statement ends with a semicolon
+3       E711 comparison to None should be 'if cond is None:'
+2       E722 do not use bare except'
+1       E741 ambiguous variable name 'l'
+41      W191 indentation contains tabs
+4       W291 trailing whitespace
+7       W293 blank line contains whitespace
+
+filename: dbtest1.py
+1       E402 module level import not at top of file
+1       W292 no newline at end of file
+5       W293 blank line contains whitespace
+
+filename: if_else.py
+
+filename: MetaTest.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E741 ambiguous variable name 'l'
+
+filename: Logic.py
+1       E302 expected 2 blank lines, found 1
+
+filename: dart game.py
+6       E225 missing whitespace around operator
+1       E227 missing whitespace around bitwise or shift operator
+3       E228 missing whitespace around modulo operator
+8       E231 missing whitespace after ','
+2       E251 unexpected spaces around keyword / parameter equals
+5       E265 block comment should start with '# '
+39      E266 too many leading '#' for block comment
+9       E302 expected 2 blank lines, found 1
+3       E305 expected 2 blank lines after class or function definition, found 1
+4       E501 line too long (84 > 81 characters)
+6       E701 multiple statements on one line (colon)
+1       E711 comparison to None should be 'if cond is None:'
+2       W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: setup.py
+22      E251 unexpected spaces around keyword / parameter equals
+
+filename: flexible_arguments.py
+4       E231 missing whitespace after ','
+1       E265 block comment should start with '# '
+1       E305 expected 2 blank lines after class or function definition, found 0
+1       E501 line too long (83 > 81 characters)
+
+filename: uzytkownik.py
+1       E101 indentation contains mixed spaces and tabs
+1       E211 whitespace before '('
+1       E231 missing whitespace after ','
+10      E251 unexpected spaces around keyword / parameter equals
+1       E265 block comment should start with '# '
+2       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (2)
+1       E305 expected 2 blank lines after class or function definition, found 1
+4       E501 line too long (101 > 81 characters)
+4       W191 indentation contains tabs
+22      W293 blank line contains whitespace
+
+filename: cryp-W4.py
+2       E201 whitespace after '['
+2       E225 missing whitespace around operator
+1       E228 missing whitespace around modulo operator
+12      E231 missing whitespace after ','
+3       E261 at least two spaces before inline comment
+2       E265 block comment should start with '# '
+15      E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+2       E501 line too long (134 > 81 characters)
+2       E741 ambiguous variable name 'l'
+4       W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: optimize no repeat.py
+55      E122 continuation line missing indentation or outdented
+3       E128 continuation line under-indented for visual indent
+20      E202 whitespace before ')'
+55      E203 whitespace before ','
+5       E222 multiple spaces after operator
+2       E225 missing whitespace around operator
+132     E231 missing whitespace after ','
+6       E261 at least two spaces before inline comment
+7       E262 inline comment should start with '# '
+3       E265 block comment should start with '# '
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+32      E501 line too long (104 > 81 characters)
+32      E502 the backslash is redundant between brackets
+1       E722 do not use bare except'
+16      W291 trailing whitespace
+1       W293 blank line contains whitespace
+1       W391 blank line at end of file
+
+filename: 0005_userprofile.py
+2       E501 line too long (114 > 81 characters)
+
+filename: receive.py
+6       E251 unexpected spaces around keyword / parameter equals
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E401 multiple imports on one line
+
+filename: bad shuffle.py
+7       E231 missing whitespace after ','
+1       E265 block comment should start with '# '
+2       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       W291 trailing whitespace
+
+filename: inverse.py
+2       E251 unexpected spaces around keyword / parameter equals
+3       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 0
+1       E741 ambiguous variable name 'l'
+2       W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: unit6_util.py
+10      E302 expected 2 blank lines, found 1
+10      W293 blank line contains whitespace
+
+filename: upacking.py
+1       E112 expected an indented block
+3       E211 whitespace before '['
+7       E231 missing whitespace after ','
+1       E302 expected 2 blank lines, found 1
+1       E303 too many blank lines (3)
+1       E305 expected 2 blank lines after class or function definition, found 0
+
+filename: Javascript Lexcial Analyzer.py
+8       E111 indentation is not a multiple of four
+3       E128 continuation line under-indented for visual indent
+2       E201 whitespace after '['
+1       E231 missing whitespace after ','
+1       E261 at least two spaces before inline comment
+3       E262 inline comment should start with '# '
+10      E302 expected 2 blank lines, found 1
+4       E305 expected 2 blank lines after class or function definition, found 1
+2       E701 multiple statements on one line (colon)
+9       W291 trailing whitespace
+2       W293 blank line contains whitespace
+
+filename: Solving.py
+1       E302 expected 2 blank lines, found 1
+
+filename: star_doublestar.py
+2       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: gcd.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: optimum policy stochastic.py
+3       E201 whitespace after '['
+3       E202 whitespace before ']'
+9       E261 at least two spaces before inline comment
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+4       E501 line too long (106 > 81 characters)
+2       W291 trailing whitespace
+1       W293 blank line contains whitespace
+
+filename: REgrammar.py
+1       E116 unexpected indentation (comment)
+9       E225 missing whitespace around operator
+2       E227 missing whitespace around bitwise or shift operator
+8       E231 missing whitespace after ','
+1       E251 unexpected spaces around keyword / parameter equals
+13      E265 block comment should start with '# '
+18      E302 expected 2 blank lines, found 1
+5       E305 expected 2 blank lines after class or function definition, found 1
+2       E306 expected 1 blank line before a nested definition, found 0
+2       E501 line too long (82 > 81 characters)
+2       E701 multiple statements on one line (colon)
+2       E731 do not assign a lambda expression, use a def
+1       W291 trailing whitespace
+3       W293 blank line contains whitespace
+
+filename: 9.py
+1       E202 whitespace before ')'
+12      E225 missing whitespace around operator
+1       E501 line too long (87 > 81 characters)
+2       W293 blank line contains whitespace
+
+filename: QSBK.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+4       E501 line too long (97 > 81 characters)
+1       E712 comparison to True should be 'if cond is True:' or 'if cond:'
+
+filename: pillow.py
+1       E265 block comment should start with '# '
+
+filename: HashInt.py
+1       E225 missing whitespace around operator
+9       E231 missing whitespace after ','
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       W293 blank line contains whitespace
+
+filename: config.py
+3       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: 21.py
+3       E101 indentation contains mixed spaces and tabs
+8       E113 unexpected indentation
+3       W191 indentation contains tabs
+
+filename: Magic.py
+10      E202 whitespace before ')'
+5       E231 missing whitespace after ','
+1       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E501 line too long (96 > 81 characters)
+1       W291 trailing whitespace
+
+filename: strings.py
+1       E225 missing whitespace around operator
+1       E231 missing whitespace after ','
+2       E265 block comment should start with '# '
+1       W604 backticks are deprecated, use 'repr()'
+
+filename: package.py
+1       E231 missing whitespace after ','
+1       E305 expected 2 blank lines after class or function definition, found 1
+
+filename: azure_webapp.py
+
+filename: 25.py
+5       E113 unexpected indentation
+
+filename: Result.py
+2       E301 expected 1 blank line, found 0
+1       E302 expected 2 blank lines, found 1
+
+filename: downloadFile.py
+2       E501 line too long (89 > 81 characters)
+
+filename: db.py
+5       E225 missing whitespace around operator
+22      E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       E401 multiple imports on one line
+20      E501 line too long (88 > 81 characters)
+1       E714 test for object identity should be 'is not'
+1       E722 do not use bare except'
+3       W291 trailing whitespace
+
+filename: SudokuModelVerifier.py
+3       E225 missing whitespace around operator
+2       E228 missing whitespace around modulo operator
+4       E231 missing whitespace after ':'
+7       E301 expected 1 blank line, found 0
+3       E501 line too long (95 > 81 characters)
+1       E711 comparison to None should be 'if cond is None:'
+2       W291 trailing whitespace
+1       W391 blank line at end of file
+
+filename: Least Obscure Path.py
+2       E111 indentation is not a multiple of four
+1       E128 continuation line under-indented for visual indent
+1       E231 missing whitespace after ','
+1       E265 block comment should start with '# '
+5       E302 expected 2 blank lines, found 1
+2       E305 expected 2 blank lines after class or function definition, found 1
+1       E402 module level import not at top of file
+
+filename: 29.py
+5       E113 unexpected indentation
+
+filename: selection_sort.py
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       E741 ambiguous variable name 'l'
+
+filename: dynamic Slice.py
+2       E221 multiple spaces before operator
+3       E302 expected 2 blank lines, found 1
+1       E305 expected 2 blank lines after class or function definition, found 1
+1       W291 trailing whitespace
+
+filename: quick_sort.py
+1       E231 missing whitespace after ','
+1       E302 expected 2 blank lines, found 1
+
+filename: bricklet_linear_poti.py
+1       E302 expected 2 blank lines, found 1
+29      E501 line too long (96 > 81 characters)
+6       W291 trailing whitespace
+20      W293 blank line contains whitespace
+
