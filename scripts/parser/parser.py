@@ -198,7 +198,7 @@ def main():
     ofile.seek(0)
     max_nesting_loops = count_loop_nesting(ofile)
 
-    js = {"name": name, 'lines': strings_amount, 'too_many_chars': been, "methods": methods_amount, 
+    js = {"filename": name, 'lines': strings_amount, 'too_many_chars': been, "methods": methods_amount, 
         "max_method_length": maxi, "max_nesting_loops": max_nesting_loops}
     res_arr = []
     if (res.read() != ""):
