@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+IFS=$'\n\b'
 files=`find ../../ml_quality/datasets/fine -name '*.py'` 
 for f in $files
 do 
