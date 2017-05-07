@@ -187,19 +187,18 @@ def main():
              been = True
     ofile.seek(0)
     methods_amount =  count_methods(ofile)
-    max = 0
+    maxl = 0
     ofile.seek(0)
     lengths = find_methods_lengths(ofile)
     #print lengths
     #print "List of methods with lengths:\n"
     for key, value in lengths.iteritems():
         if (value > max):
-            maxi = value
+            maxl = value
     ofile.seek(0)
     max_nesting_loops = count_loop_nesting(ofile)
-
     js = {"filename": name, 'lines': strings_amount, 'too_many_chars': been, "methods": methods_amount, 
-        "max_method_length": maxi, "max_nesting_loops": max_nesting_loops}
+        "max_method_length": maxl, "max_nesting_loops": max_nesting_loops}
     res_arr = []
     if (res.read() != ""):
         res.seek(0)
