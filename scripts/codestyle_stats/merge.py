@@ -16,7 +16,5 @@ for i in range(0, len(parsed_custom_bad)):
         print parsed_custom_bad[i]["filename"]
         if "errors" in parsed_cs_bad[i]:
             parsed_custom_bad[i]["errors"] = parsed_cs_bad[i]["errors"]
-        else:
-            parsed_custom_bad[i]["errors"] = None
 res.write(json.dumps(parsed_custom_bad, indent=4))
 res.close()
