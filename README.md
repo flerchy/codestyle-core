@@ -7,7 +7,7 @@ python ml_quality/test/test.py yourfilename.py [1 if you also want to make codes
 
 
 ## Installing
-sudo apt install pip  
+You need to have pip installed
 pip install numpy  
 pip install sklearn  
 pip install pycodestyle  
