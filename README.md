@@ -7,9 +7,9 @@ python ml_quality/test/test.py yourfilename.py [1 if you also want to make codes
 
 
 ## Installing
-sudo apt install pip
-pip install numpy
-pip install sklearn
-pip install pycodestyle
-pip install --upgrade https://github.com/Theano/Theano/archive/master.zip
-pip install --upgrade https://github.com/Lasagne/Lasagne/archive/master.zip
+sudo apt install pip  
+pip install numpy  
+pip install sklearn  
+pip install pycodestyle  
+pip install --upgrade https://github.com/Theano/Theano/archive/master.zip  
+pip install --upgrade https://github.com/Lasagne/Lasagne/archive/master.zip  
