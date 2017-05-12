@@ -180,7 +180,7 @@ predict_fn = theano.function([input_var], T.argmax(test_prediction, axis=1))
 sum = 0
 for batch in iterate_minibatches_2(inputs=X_test,batchsize=1):
         inputs = batch
-        #print inputs
+        print inputs
         result=predict_fn(inputs)
         if (result[0] == 1):
             print '{"answer": "fine code"}'
