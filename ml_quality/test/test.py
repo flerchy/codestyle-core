@@ -41,7 +41,7 @@ ps.add_argument('cscheck', metavar='c', help="Set if you want to see codestyle c
 
 args = ps.parse_args()
 
-print args.cscheck
+#print args.cscheck
 
 if (args.cscheck == "1"):
     
@@ -77,10 +77,7 @@ res = open("test_codestyle.json", "w+")
 begin_coord = 0
 lines_count = []
 file_info = []
-
-i = 0 
-for line in f:
-    errors = {"E101": 0, "E191": 0,"E122": 0,"E305": 0,"E302": 0,"E111": 0, "E112": 0,
+errors = {"E101": 0, "E191": 0,"E122": 0,"E305": 0,"E302": 0,"E111": 0, "E112": 0,
             "E113": 0,"E114": 0,"E116": 0,"E115": 0,"E121": 0,"E123": 0,"E124": 0, 
             "E129": 0,"E126": 0,"E127": 0,"E128": 0,"E131": 0,"W291": 0,"E125": 0,
             "W503": 0,"E701": 0,"E203": 0,"E201": 0,"E202": 0,"E702": 0,"E211": 0,
@@ -90,6 +87,9 @@ for line in f:
             "E741": 0, "E402": 0, "E275": 0, "E301": 0, "E303": 0, "E304": 0, "E306": 0, "E401": 0,
              "E501": 0, "E502": 0, "E703": 0, "E704": 0, "E711": 0, "E712": 0, "E713": 0, "E714": 0, "E721": 0,
             "E722": 0, "E731": 0, "E901": 0,"W293": 0,"W601": 0,"W602":0,"W603":0,"W604":0, "W191":0, "W292":0, "W391":0} 
+i = 0 
+for line in f:
+    
     if (line[0] == "f"):
         info = {}
         filename = line[10:-1]
@@ -102,35 +102,36 @@ for line in f:
         continue
     amount = line.split("   ")
 #   print "123"
-    print amount[0]
+#    print amount[0]
     errno = amount[-1].lstrip()[:4]
     info["errors"] = errors
-    if (errno not in errors):
-        print errno
+#    if (errno not in errors):
+#        print errno
     errors[errno] += int(amount[0])
     i += 1
 else:
     file_info.append(info)
+#print file_info
 mid = 0
-print len(file_info)
+#print len(file_info)
 res.write(json.dumps(file_info, indent=4))
-print "OK\n"
+#print "OK\n"
 f.close()
 res.close()
 
 with open("test_codestyle.json", "r") as cs_bad_stats:
     cs_bad_data = cs_bad_stats.read().replace('\n', ' ')
     parsed_cs_bad = json.loads(cs_bad_data)
-    print parsed_cs_bad[:10]
+    #print parsed_cs_bad[:10]
 with open("test_custom.json", "r") as custom_bad_stats:
     custom_bad_data = custom_bad_stats.read().replace('\n', ' ')
     parsed_custom_bad = json.loads(custom_bad_data)
-    print parsed_custom_bad[:10]
+    #print parsed_custom_bad[:10]
 res = open("test_res.json", "w+")
 merged_bad = []
 for i in range(0, len(parsed_custom_bad)):
     if (parsed_custom_bad[i]["filename"] == parsed_cs_bad[i]["filename"]):
-        print parsed_custom_bad[i]["filename"]
+        #print parsed_custom_bad[i]["filename"]
         if "errors" in parsed_cs_bad[i]:
             parsed_custom_bad[i]["errors"] = parsed_cs_bad[i]["errors"]
 res.write(json.dumps(parsed_custom_bad, indent=4))
@@ -149,13 +150,13 @@ for i in range(0, len(test_dict)):
         s.extend(test_dict[i]['errors'].values())
         #print s
     else:
-        s.extend([0]*(len(test_dict[0]['errors'])))
+        s.extend([0]*77)
     #print s
     #print s
     for key, value in test_dict[i].items():
          if key not in ('errors', 'filename'):
             s.append(int(value))
-    print s
+    #print s
     s = np.array(s) 
     X_test.append(s)
 
@@ -168,7 +169,7 @@ target_var = T.ivector('targets')
 
 network = build_network(input_var)
 
-print X_test.shape
+#print X_test.shape
         
 # use trained network for predictions
 test_prediction = lasagne.layers.get_output(network, deterministic=True)

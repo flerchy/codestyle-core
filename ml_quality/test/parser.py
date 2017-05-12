@@ -9,13 +9,12 @@ LINESIZE = 120
 
 INF = 99999
 file = None
-parser = argparse.ArgumentParser(description="Code file stats")
 
 
 import json
 
 def find_methods_lengths(file):
-    print "Countint methods lengths..."
+    #print "Countint methods lengths..."
     lengths_of_methods = {}
     result = None
     inside = False
@@ -51,7 +50,7 @@ def find_methods_lengths(file):
     return lengths_of_methods
 
 def count_methods(file):
-    print "Counting methods"
+    #print "Counting methods"
     methods_amount = 0
     result = True
     for i in file:
@@ -65,11 +64,9 @@ def count_methods(file):
     return methods_amount
 
 def fopen(filename):
-    print "Open file."
+    #print "Open file."
     if os.path.isfile(filename):
         file = open(filename, 'r')
-    else:
-        parser.error("The file %s doesn't exist!" % filename)
     return file
 
 def count_strings(file):
@@ -78,7 +75,7 @@ def count_strings(file):
 
 
 def count_chars_in_lines(file):
-    print "Counting chars in lines"
+    #print "Counting chars in lines"
     chars = []
     for i in file:
         chars.append(len(i))
@@ -95,7 +92,7 @@ def count_spaces(string):
 
 
 def count_loop_nesting(file):
-    print "Counting nesting loops if any"
+    #print "Counting nesting loops if any"
     level = 0
     begin = []
     end = []
@@ -168,13 +165,11 @@ def main():
     args = parser.parse_args()
     ofile = fopen(args.filename)
     name = os.path.basename(args.filename)
-    print args.filename
+    #print args.filename
     res = open(args.destination, 'a+')
     #print "Counting lines..."
     strings_amount = count_strings(ofile)
-    if (strings_amount != 0):
-        print strings_amount
-    else:
+    if (strings_amount == 0):
         return 0
     ofile.seek(0)
     chars = count_chars_in_lines(ofile)
@@ -203,16 +198,13 @@ def main():
     if (res.read() != ""):
         res.seek(0)
         res_arr = json.loads(res.read())
-        print res_arr
+        #print res_arr
     deleteContent(res)
     res_arr.append(js)
     res.write(json.dumps(res_arr))
     ofile.close()
     res.close()
-    print "OK\n"
-
-main()
-
+    #print "OK\n"
 
 def run(file_name): 
     res = open("test_custom.json", 'w+')
@@ -220,16 +212,14 @@ def run(file_name):
     ofile = fopen(file_name)
     strings_amount = count_strings(ofile)
     if (strings_amount != 0):
-        print strings_amount
+        #print strings_amount
         res.write(str(strings_amount) + "\n")
     else:
         return 0
     ofile.seek(0)
     #print "Counting lines..."
     strings_amount = count_strings(ofile)
-    if (strings_amount != 0):
-        print strings_amount
-    else:
+    if (strings_amount == 0):
         return 0
     ofile.seek(0)
     chars = count_chars_in_lines(ofile)
@@ -258,10 +248,10 @@ def run(file_name):
     if (res.read() != ""):
         res.seek(0)
         res_arr = json.loads(res.read())
-        print res_arr
+       #print res_arr
     deleteContent(res)
     res_arr.append(js)
     res.write(json.dumps(res_arr))
     ofile.close()
     res.close()
-    print "OK\n"
+    #print "OK\n"
