@@ -16,13 +16,10 @@ def build_network(input_var=None):
     l_hid = lasagne.layers.DenseLayer(l_in, num_units=82, 
                                        nonlinearity=lasagne.nonlinearities.rectify,
                                        W=lasagne.init.GlorotUniform())
-    l_hid2 = lasagne.layers.DenseLayer(l_hid, num_units=41, 
-                                       nonlinearity=lasagne.nonlinearities.rectify,
-                                       W=lasagne.init.GlorotUniform())
-    l_hid3 = lasagne.layers.DenseLayer(l_hid2, num_units=20, 
+    l_hid2 = lasagne.layers.DenseLayer(l_hid, num_units=20, 
                                        nonlinearity=lasagne.nonlinearities.softmax,
                                        W=lasagne.init.GlorotUniform())
-    l_out = lasagne.layers.DenseLayer(l_hid3, num_units=2, 
+    l_out = lasagne.layers.DenseLayer(l_hid2, num_units=2, 
                                       nonlinearity=lasagne.nonlinearities.softmax)
     return l_out
 
@@ -169,6 +166,11 @@ target_var = T.ivector('targets')
 
 network = build_network(input_var)
 
+
+with np.load('../model_1.npz') as f:
+    param_values = [f['arr_%d' % i] for i in range(len(f.files))]
+lasagne.layers.set_all_param_values(network, param_values)
+
 #print X_test.shape
         
 # use trained network for predictions
@@ -178,6 +180,7 @@ predict_fn = theano.function([input_var], T.argmax(test_prediction, axis=1))
 sum = 0
 for batch in iterate_minibatches_2(inputs=X_test,batchsize=1):
         inputs = batch
+        print inputs
         result=predict_fn(inputs)
         if (result[0] == 1):
             print '{"answer": "fine code"}'
