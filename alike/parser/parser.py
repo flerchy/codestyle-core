@@ -1,21 +1,16 @@
-#!/usr/bin/env python
-
 import os
 import time
 import argparse
 import re
 
-LINESIZE = 120
+LINESIZE = 81
 
 INF = 99999
 file = None
 parser = argparse.ArgumentParser(description="Code file stats")
 
-
-import json
-
 def find_methods_lengths(file):
-    print "Countint methods lengths..."
+    print "Counting methods lengths..."
     lengths_of_methods = {}
     result = None
     inside = False
@@ -23,9 +18,7 @@ def find_methods_lengths(file):
     string_count = 0
     for i in file:
         #print i
-        result = re.match(r'def', i)
-        if result is None:
-            result = re.match(r'class', i)
+        result = re.match(r'[ ]*def', i)
         #print result
         if (inside == True):
             string_count += 1
@@ -50,19 +43,56 @@ def find_methods_lengths(file):
         lengths_of_methods[name] = string_count
     return lengths_of_methods
 
+def find_classes_lengths(file):
+    print "Counting classes lengths..."
+    lengths_of_classes = {}
+    result = None
+    inside = False
+    name = None
+    string_count = 0
+    for i in file:
+        #print i
+        result = re.match(r'[ ]*class', i)
+        #print result
+        if (inside == True):
+            string_count += 1
+        if ((result is not None) and (inside == True)):
+            lengths_of_classes[name] = string_count-3
+            string_count = 0
+            inside = False
+        if ((result is not None) and (inside == False)):
+            func_name = re.search('(?<=class )\w+\(.*\)', i)
+            string_count = 0
+            inside = True
+        result2 = re.match(r'[a-z]|[A-Z]', i)
+        if ((result2 is not None) and (result is None) and (inside == True)):
+            lengths_of_classes[name] = string_count-3
+            string_count = 0
+            inside = False
+    if name not in lengths_of_classes.keys():
+        lengths_of_classes[name] = string_count
+    return lengths_of_classes
+
 def count_methods(file):
     print "Counting methods"
     methods_amount = 0
     result = True
     for i in file:
-        result = re.match(r'*def *', i)
+        result = re.match(r'[ ]*def ', i)
         if (result is not None):
             methods_amount += 1
-        else:
-            result = re.match(r'*class *', i)
-            if(result is not None):
-                methods_amount += 1
     return methods_amount
+
+
+def count_classes(file):
+    print "Counting classes"
+    classes_amount = 0
+    result = True
+    for i in file:
+        result = re.match(r'[ ]*class ', i)
+        if (result is not None):
+            classes_amount += 1
+    return classes_amount
 
 def fopen(filename):
     print "Open file."
@@ -106,20 +136,23 @@ def count_loop_nesting(file):
         x = file.readline()
         if not x: break
         num_str += 1
-        result1 = re.search(r'    for', x)
+        result1 = re.search(r'^[ ]*for', x)
         if (result1 is not None):
             begin.append(num_str)
-        result2 = re.search(r'    while', x)
+        result2 = re.search(r'^[ ]*while', x)
         if (result2 is not None):
             begin.append(num_str)
         #print num_str
     #print begin
     file.seek(0)
     num_str = -1
+    prev = 0
     while True:
         x = file.readline()
         if not x: break
-        num_spaces.append(count_spaces(x))
+        if x == "\n": num_spaces.append(prev)
+        prev = count_spaces(x)
+        num_spaces.append(prev)
     #print num_spaces
     file.seek(0)
     num_str = count_strings(file)
@@ -156,10 +189,6 @@ def count_loop_nesting(file):
     return max_nests
 
 
-def deleteContent(pfile):
-    pfile.seek(0)
-    pfile.truncate()
-
 def main():
     parser.add_argument('filename', metavar='F', 
                                     help='Path to file you want to analyze')
@@ -167,13 +196,13 @@ def main():
                                     help='Path to results')
     args = parser.parse_args()
     ofile = fopen(args.filename)
-    name = os.path.basename(args.filename)
     print args.filename
     res = open(args.destination, 'a+')
     #print "Counting lines..."
     strings_amount = count_strings(ofile)
     if (strings_amount != 0):
         print strings_amount
+        res.write(str(strings_amount) + "\n")
     else:
         return 0
     ofile.seek(0)
@@ -185,30 +214,53 @@ def main():
         if (i > LINESIZE):
              #print "Too many chars in line {}: {} chars".format(count_lines, i)
              been = True
+    if not been:
+        res.write("0\n")
+        #print "OK"
+    if been:
+        res.write("1\n")
     ofile.seek(0)
     methods_amount =  count_methods(ofile)
-    maxl = 0
+    max = 0
+    if (methods_amount == 0):
+        res.write("0\n")
+        #print "No methods found"
+    else:
+        res.write(str(methods_amount) + "\n")
+        print methods_amount
+        ofile.seek(0)
+        lengths = find_methods_lengths(ofile)
+        #print lengths
+        #print "List of methods with lengths:\n"
+        for key, value in lengths.iteritems():
+            if (value > max):
+                max = value
+            #print "{}: {}".format(key, value)
+    print max
+    res.write(str(max) + '\n')
     ofile.seek(0)
-    lengths = find_methods_lengths(ofile)
-    #print lengths
-    #print "List of methods with lengths:\n"
-    for key, value in lengths.iteritems():
-        if (value > max):
-            maxl = value
+    classes_amount = count_classes(ofile)
+    max = 0
+    if (classes_amount == 0):
+        res.write("0\n")
+    else:
+        res.write(str(classes_amount) + "\n")
+        print classes_amount
+        ofile.seek(0)
+        lengths = find_classes_lengths(ofile)
+        for key, value in lengths.iteritems():
+            if value > max:
+                max = value
+    print max
+    res.write(str(max) + '\n')
     ofile.seek(0)
     max_nesting_loops = count_loop_nesting(ofile)
-    js = {"filename": name, 'lines': strings_amount, 'too_many_chars': been, "methods": methods_amount, 
-        "max_method_length": maxl, "max_nesting_loops": max_nesting_loops}
-    res_arr = []
-    if (res.read() != ""):
-        res.seek(0)
-        res_arr = json.loads(res.read())
-        print res_arr
-    deleteContent(res)
-    res_arr.append(js)
-    res.write(json.dumps(res_arr))
+    print "Nesting loops amount: {}".format(max_nesting_loops)
+    res.write(str(max_nesting_loops) + "\n")
+    res.write('\n')
     ofile.close()
     res.close()
+    #print fstring
     print "OK\n"
 
 main()
