@@ -129,7 +129,6 @@ def count_spaces(string):
 def _count_spaces(file):
     count = 0
     for line in file:
-        print line[:4]
         if (line[:4]) != "    ":
             continue
         else:
@@ -210,6 +209,26 @@ def count_loop_nesting(file):
                 j += 1
     return max_nests
 
+def analyze_names(ofile):
+    root = ast.parse(ofile.read())
+    names = sorted({node.id for node in ast.walk(root) if isinstance(node, ast.Name)})
+    underscore = 0
+    camelcase = 0
+    for i in names:
+        if i in ["False","True","None"]:
+            continue
+        if i.isupper():
+            continue
+        for j in i:
+            if j is "_":
+                underscore += 1
+                print "under"
+                break
+            if j.isupper():
+                print "camel"
+                camelcase += 1
+    return underscore, camelcase
+
 
 def main():
     parser.add_argument('filename', metavar='F', 
@@ -286,6 +305,9 @@ def main():
     print "Tabs: {}".format(tabs)
     print "Spaces: {}".format(spaces)
     res.write(str(tabs) + "\n" + str(spaces) + "\n")
+    ofile.seek(0)
+    naming_vars = analyze_names(ofile)
+    res.write(str(naming_vars[0]) + "\n" + str(naming_vars[1] + "\n")
     res.write('\n')
     ofile.close()
     res.close()
