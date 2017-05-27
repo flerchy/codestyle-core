@@ -2,12 +2,14 @@ import os
 import time
 import argparse
 import re
+import ast
 
 LINESIZE = 81
 
 INF = 99999
 file = None
 parser = argparse.ArgumentParser(description="Code file stats")
+
 
 def find_methods_lengths(file):
     print "Counting methods lengths..."
@@ -118,11 +120,31 @@ def count_spaces(string):
     count = 0
     for i in string:
         if (i != ' '):
-            break
+            continue
         else:
             count += 1
     return count
 
+
+def _count_spaces(file):
+    count = 0
+    for line in file:
+        print line[:4]
+        if (line[:4]) != "    ":
+            continue
+        else:
+            count += 1
+    return count
+
+def count_tabs(file):
+    count = 0;
+    for line in file:
+        for i in line:
+            if (i is not "\t"):
+                break    
+            else:
+                count += 1
+    return count
 
 def count_loop_nesting(file):
     print "Counting nesting loops if any"
@@ -257,6 +279,13 @@ def main():
     max_nesting_loops = count_loop_nesting(ofile)
     print "Nesting loops amount: {}".format(max_nesting_loops)
     res.write(str(max_nesting_loops) + "\n")
+    ofile.seek(0)
+    tabs = count_tabs(ofile)
+    ofile.seek(0)
+    spaces = _count_spaces(ofile)
+    print "Tabs: {}".format(tabs)
+    print "Spaces: {}".format(spaces)
+    res.write(str(tabs) + "\n" + str(spaces) + "\n")
     res.write('\n')
     ofile.close()
     res.close()
